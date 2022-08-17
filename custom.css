@@ -22,8 +22,19 @@
     font-size: 1.25em;
     width: 100%;
     padding: 10px;
+    background: rgba(0, 0, 0, 0.071); 
+  }
+
+  input, select, textarea::placeholder {
+    color: #fff;
+    font-size: 18px;
   }
   
+  .contact-form-box input::placeholder {
+    color: #fff;
+    font-size: 18px;
+  }
+
   div.elem-group.inlined input {
     width: 95%;
     display: inline-block;
@@ -42,7 +53,7 @@
     height: 50px;
     width: 150px;
     background: #ad9260;
-    border: none;
+    border: #fff;
     color: white;
     font-size: 1.25em;
     padding: 10px 30px;
@@ -85,10 +96,11 @@
     padding: 10px 0;
   }
 .btn-default{
-    max-width: 250px;
+    max-width: 350px;
+    border-radius: 15px;
 }
 .contact-form-box input {
-  margin: 0 0 10px;
+  margin: 0 0 60px;
 }
 body.sticky #main-header.sticky{
   position: relative !important;
