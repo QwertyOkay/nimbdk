@@ -9,6 +9,8 @@ $total_guests = $_POST["total_guests"];
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=3.561904761904762, maximum-scale=1, user-scalable=no, height=device-height">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
       <style type="text/css">@charset "UTF-8";
          /**
          * Variables declared here can be overridden by consuming applications, with
@@ -12070,7 +12072,7 @@ $total_guests = $_POST["total_guests"];
          background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), -webkit-linear-gradient(-245deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%);
          background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.05) 1px, rgba(255, 255, 255, 0) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.03) 4px), repeating-linear-gradient(90deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), repeating-linear-gradient(210deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), linear-gradient(-25deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%); }
       </style>
-      <title>Oz Hotels Antalya Hotel Resort &amp; Spa  (+16 )</title>
+      <title>Play By Admiral Hotel</title>
    </head>
    <body>
 
@@ -12120,7 +12122,7 @@ $total_guests = $_POST["total_guests"];
             <nav id="main-menu">
               <ul class="list-inline">
                 <li>
-                  <a href="/">Home</a>
+                  <a href="policy.html">Policy</a>
                 </li>
                 <li>
                   <a href="about.html">About Us</a>
@@ -12139,7 +12141,7 @@ $total_guests = $_POST["total_guests"];
             <div _ngcontent-c3="" class="container mainContainer marT30">
 
         <div class="heading-box">
-          <h2>Your booking</h2>
+          <h2>Your Stay</h2>
           <!-- Title -->
           <div class="subtitle"></div>
           <!-- Subtitle -->
@@ -12183,7 +12185,7 @@ $total_guests = $_POST["total_guests"];
                      <div _ngcontent-c3="" class="contentContainerCard border">
                         <div _ngcontent-c3="" class="row mar0 cardMainDetails">
                            <div _ngcontent-c3="" class="col-sm-3 imgContainer order-sm-0">
-                              <!----><img _ngcontent-c3="" alt="" src="https://cdn-cms6.hotelrunner.com/assets/photos/product/35e2d27d-d11c-4e0f-aa4e-de37780842e1.jpg"><!---->
+                              <!----><img _ngcontent-c3="" alt="" src="https://dg2kj7uuq7g1w.cloudfront.net/-/media/images/nimbv2/hotel/rooms/hero/standard_double_room_818x610.jpg?w=818"><!---->
                            </div>
                            <div _ngcontent-c3="" class="col-sm-6 cartDetailsContainer padT10 long">
                            <h5 _ngcontent-c3="" class="cardDetailsTitle">Standard</h5>
