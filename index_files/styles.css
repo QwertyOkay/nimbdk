@@ -12906,7 +12906,7 @@ input:focus, textarea:focus {
   text-align: center;
   margin: 80px 0; }
   .heading-box h2 {
-    color: #C5A46D;
+    color: #000;
     display: inline-block;
     border-bottom: 1px solid #C5A46D;
     padding: 0 20px 20px;
@@ -13816,7 +13816,7 @@ body.sticky #main-header.sticky {
  * Luxury Rooms Style
  */
 #luxury-rooms, #special-dishes, #special-packages-type-2 {
-  background: #f8f9f9;
+  background: #fff;
   padding: 1px 0 100px; }
   #luxury-rooms h2, #special-dishes h2, #special-packages-type-2 h2 {
     margin-top: 0; }
@@ -14141,7 +14141,7 @@ body.sticky #main-header.sticky {
   color: #d0d4d7;
   position: relative;
   border-top: 3px solid #C5A46D;
-  padding: 140px 0; }
+  padding: 50px 0; }
   #top-footer #go-up-box {
     width: 40px;
     height: 40px;
