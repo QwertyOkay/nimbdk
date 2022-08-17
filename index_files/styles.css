@@ -1158,7 +1158,7 @@ a {
   color: #337ab7;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #23527c;
+    /* color: #23527c; */
     text-decoration: underline; }
   a:focus {
     outline: thin dotted;
@@ -1347,14 +1347,11 @@ mark,
 .text-primary {
   color: #337ab7; }
 
-a.text-primary:hover {
-  color: #286090; }
-
 .text-success {
   color: #3c763d; }
 
-a.text-success:hover {
-  color: #2b542c; }
+/* a.text-success:hover {
+  color: #2b542c; } */
 
 .text-info {
   color: #31708f; }
@@ -1365,14 +1362,14 @@ a.text-info:hover {
 .text-warning {
   color: #8a6d3b; }
 
-a.text-warning:hover {
-  color: #66512c; }
+/* a.text-warning:hover {
+  color: #66512c; } */
 
 .text-danger {
   color: #a94442; }
 
-a.text-danger:hover {
-  color: #843534; }
+/* a.text-danger:hover {
+  color: #843534; } */
 
 .bg-primary {
   color: #fff; }
@@ -1427,6 +1424,7 @@ ol {
   list-style: none; }
 
 .list-inline {
+  
   padding-left: 0;
   list-style: none;
   margin-left: -5px;
@@ -12888,11 +12886,11 @@ a {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color: #C5A46D; }
+  color: #000; }
   a:hover, a:focus {
     text-decoration: none;
     outline: none;
-    color: #333333; }
+    color: #000000; }
 
 input:focus, textarea:focus {
   border-color: #333333;
@@ -12917,7 +12915,7 @@ input:focus, textarea:focus {
     letter-spacing: -2px;
     position: relative;
     z-index: 1; }
-    .heading-box h2:before {
+    /* .heading-box h2:before {
       display: block;
       content: "";
       position: absolute;
@@ -12940,7 +12938,7 @@ input:focus, textarea:focus {
       z-index: -1;
       background: #C5A46D;
       width: 92%;
-      height: 1px; }
+      height: 1px; } */
     .heading-box h2 span {
       font-weight: bold; }
   .heading-box .subtitle {
@@ -13256,7 +13254,7 @@ blockquote {
           position: absolute;
           left: 0;
           top: 0;
-          background: #C5A46D;
+          /* background: #C5A46D; */
           z-index: -1;
           opacity: 0;
           filter: alpha(opacity=0);
@@ -13336,7 +13334,7 @@ blockquote {
       background: #FFFFFF; }
     #main-header #mobile-menu-container {
       border-top: 1px solid #d0d4d7;
-      border-bottom: 1px solid #d0d4d7;
+      /* border-bottom: 1px solid #d0d4d7; */
       display: none; }
     #main-header #main-menu {
       float: none;
@@ -13349,7 +13347,7 @@ blockquote {
           line-height: 35px;
           color: #333333;
           padding: 0 30px;
-          border-bottom: 1px solid #d0d4d7;
+          /* border-bottom: 1px solid #d0d4d7; */
           letter-spacing: 1px; }
         #main-header #main-menu li ul {
           position: initial;
@@ -13466,7 +13464,10 @@ body.sticky #main-header.sticky {
     line-height: 100px; }
     @media (max-width: 992px) {
       body.sticky #main-header.sticky #main-menu li a {
-        line-height: 35px !important; } }
+        line-height: 33px !important; } }
+        body.sticky #main-header.sticky #main-menu li a:hover {
+          color: #000!important;
+        }
   body.sticky #main-header.sticky #main-menu li ul li a {
     line-height: 40px; }
   body.sticky #main-header.sticky .book-now-btn {
@@ -13666,8 +13667,8 @@ body.sticky #main-header.sticky {
     /* background-color: #f6f3e7;
     opacity: 100; */
     position: absolute;
-    left: 15px;
-    top: 54%;
+    left: 140px;
+    top: 35%;
     text-align: center;
     color: #333333;
     width: 793px;
@@ -13689,7 +13690,7 @@ body.sticky #main-header.sticky {
     #main-booking-form.style-2 .booking-form {
       width: 100%; }
     #main-booking-form.style-2 input[type="text"], #main-booking-form.style-2 .chosen-container, #main-booking-form.style-2 select {
-      border: 1px solid #C5A46D;
+      border: 1px solid #ad9260;
       background: rgba(255, 255, 255, 0.7);
       color: #333333;
       height: 50px; }
@@ -13820,11 +13821,11 @@ body.sticky #main-header.sticky {
   #luxury-rooms h2, #special-dishes h2, #special-packages-type-2 h2 {
     margin-top: 0; }
   #luxury-rooms .room-boxes, #special-dishes .room-boxes, #luxury-rooms .package-boxes, #special-dishes .package-boxes, #special-packages-type-2 .room-boxes, #special-packages-type-2 .package-boxes {
-    height: 400px;
+    height: 640px;
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-bottom: 220px;
     position: relative;
-    border: 1px solid #C5A46D; }
+    /* border: 1px solid #C5A46D; */ }
     #luxury-rooms .room-boxes:last-child, #special-dishes .room-boxes:last-child, #luxury-rooms .package-boxes:last-child, #special-dishes .package-boxes:last-child, #special-packages-type-2 .room-boxes:last-child, #special-packages-type-2 .package-boxes:last-child {
       margin-bottom: 0; }
     #luxury-rooms .room-boxes:before, #special-dishes .room-boxes:before, #luxury-rooms .package-boxes:before, #special-dishes .package-boxes:before, #special-packages-type-2 .room-boxes:before, #special-packages-type-2 .package-boxes:before {
@@ -13841,7 +13842,7 @@ body.sticky #main-header.sticky {
       transition: all 0.6s ease; }
     #luxury-rooms .room-boxes .room-img, #special-dishes .room-boxes .room-img, #luxury-rooms .room-boxes .package-img, #special-dishes .room-boxes .package-img, #luxury-rooms .package-boxes .room-img, #special-dishes .package-boxes .room-img, #luxury-rooms .package-boxes .package-img, #special-dishes .package-boxes .package-img, #special-packages-type-2 .room-boxes .room-img, #special-packages-type-2 .room-boxes .package-img, #special-packages-type-2 .package-boxes .room-img, #special-packages-type-2 .package-boxes .package-img {
       position: absolute;
-      left: 50%;
+      left: 47%;
       top: 50%;
       max-width: 100%;
       -webkit-transition: all 1s ease;
@@ -13855,7 +13856,7 @@ body.sticky #main-header.sticky {
       position: absolute;
       left: 0;
       top: 0;
-      background: rgba(255, 255, 255, 0.8);
+      background: #788186;
       color: #FFFFFF;
       padding: 170px 30px 30px;
       height: 100%;
@@ -13864,15 +13865,17 @@ body.sticky #main-header.sticky {
       -o-transition: all 1s ease;
       transition: all 1s ease; }
       #luxury-rooms .room-boxes .room-details .title, #special-dishes .room-boxes .room-details .title, #luxury-rooms .room-boxes .package-details .title, #special-dishes .room-boxes .package-details .title, #luxury-rooms .package-boxes .room-details .title, #special-dishes .package-boxes .room-details .title, #luxury-rooms .package-boxes .package-details .title, #special-dishes .package-boxes .package-details .title, #special-packages-type-2 .room-boxes .room-details .title, #special-packages-type-2 .room-boxes .package-details .title, #special-packages-type-2 .package-boxes .room-details .title, #special-packages-type-2 .package-boxes .package-details .title {
-        font-size: 24px;
+        font-size: 35px;
         font-weight: bold;
         letter-spacing: -1px;
-        color: #C5A46D; }
+        color: #FFFFFF; }
       #luxury-rooms .room-boxes .room-details .description, #special-dishes .room-boxes .room-details .description, #luxury-rooms .room-boxes .package-details .description, #special-dishes .room-boxes .package-details .description, #luxury-rooms .package-boxes .room-details .description, #special-dishes .package-boxes .room-details .description, #luxury-rooms .package-boxes .package-details .description, #special-dishes .package-boxes .package-details .description, #special-packages-type-2 .room-boxes .room-details .description, #special-packages-type-2 .room-boxes .package-details .description, #special-packages-type-2 .package-boxes .room-details .description, #special-packages-type-2 .package-boxes .package-details .description {
         margin: 20px 0;
-        max-height: 100px;
-        overflow: hidden;
-        color: #333333; }
+        /* max-height: 100px;
+        overflow: hidden; */
+        color: #FFFFFF;
+        width: initial;
+        padding: 15px; }
       #luxury-rooms .room-boxes .room-details .btn, #special-dishes .room-boxes .room-details .btn, #luxury-rooms .room-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #luxury-rooms .room-boxes .room-details a, #special-dishes .room-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-dishes .room-boxes .room-details a, #luxury-rooms .room-boxes .package-details .btn, #special-dishes .room-boxes .package-details .btn, #luxury-rooms .room-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #luxury-rooms .room-boxes .package-details a, #special-dishes .room-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-dishes .room-boxes .package-details a, #luxury-rooms .package-boxes .room-details .btn, #special-dishes .package-boxes .room-details .btn, #luxury-rooms .package-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #luxury-rooms .package-boxes .room-details a, #special-dishes .package-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-dishes .package-boxes .room-details a, #luxury-rooms .package-boxes .package-details .btn, #special-dishes .package-boxes .package-details .btn, #luxury-rooms .package-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #luxury-rooms .package-boxes .package-details a, #special-dishes .package-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-dishes .package-boxes .package-details a, #special-packages-type-2 .room-boxes .room-details .btn, #special-packages-type-2 .room-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-packages-type-2 .room-boxes .room-details a, #special-packages-type-2 .room-boxes .package-details .btn, #special-packages-type-2 .room-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-packages-type-2 .room-boxes .package-details a, #special-packages-type-2 .package-boxes .room-details .btn, #special-packages-type-2 .package-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-packages-type-2 .package-boxes .room-details a, #special-packages-type-2 .package-boxes .package-details .btn, #special-packages-type-2 .package-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-packages-type-2 .package-boxes .package-details a {
         padding: 6px 30px; }
     #luxury-rooms .room-boxes .price-container, #special-dishes .room-boxes .price-container, #luxury-rooms .package-boxes .price-container, #special-dishes .package-boxes .price-container, #special-packages-type-2 .room-boxes .price-container, #special-packages-type-2 .package-boxes .price-container {
@@ -13916,7 +13919,7 @@ body.sticky #main-header.sticky {
       -webkit-transform: scale(1.02) translateX(-50%) translateY(-50%);
       transform: scale(1.02) translateX(-50%) translateY(-50%); }
     #luxury-rooms .room-boxes:hover .room-details, #special-dishes .room-boxes:hover .room-details, #luxury-rooms .room-boxes:hover .package-details, #special-dishes .room-boxes:hover .package-details, #luxury-rooms .package-boxes:hover .room-details, #special-dishes .package-boxes:hover .room-details, #luxury-rooms .package-boxes:hover .package-details, #special-dishes .package-boxes:hover .package-details, #special-packages-type-2 .room-boxes:hover .room-details, #special-packages-type-2 .room-boxes:hover .package-details, #special-packages-type-2 .package-boxes:hover .room-details, #special-packages-type-2 .package-boxes:hover .package-details {
-      background: #FFFFFF; }
+      background: #788186; }
     #luxury-rooms .room-boxes:hover .price, #special-dishes .room-boxes:hover .price, #luxury-rooms .package-boxes:hover .price, #special-dishes .package-boxes:hover .price, #special-packages-type-2 .room-boxes:hover .price, #special-packages-type-2 .package-boxes:hover .price {
       left: 50%;
       opacity: 1;
@@ -14134,11 +14137,11 @@ body.sticky #main-header.sticky {
  * Top Footer Style
  */
 #top-footer {
-  background: #333333;
+  background: #f6f3e7;
   color: #d0d4d7;
   position: relative;
   border-top: 3px solid #C5A46D;
-  padding: 80px 0; }
+  padding: 140px 0; }
   #top-footer #go-up-box {
     width: 40px;
     height: 40px;
@@ -16216,7 +16219,7 @@ aside.sidebar {
       color: #FFFFFF;
       border-bottom: 0;
       padding: 0 0 10px; }
-      #fullscreen-welcome .heading-box h2:before, #fullscreen-welcome .heading-box h2:after {
+      #fullscreen-welcome  #fullscreen-welcome{
         display: none; }
   #fullscreen-welcome .welcome-text {
     margin-bottom: 40px;

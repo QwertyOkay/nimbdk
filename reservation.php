@@ -12186,15 +12186,15 @@ $total_guests = $_POST["total_guests"];
                               <!----><img _ngcontent-c3="" alt="" src="https://cdn-cms6.hotelrunner.com/assets/photos/product/35e2d27d-d11c-4e0f-aa4e-de37780842e1.jpg"><!---->
                            </div>
                            <div _ngcontent-c3="" class="col-sm-6 cartDetailsContainer padT10 long">
-                              <h5 _ngcontent-c3="" class="cardDetailsTitle">Standart Room</h5>
-                              <div _ngcontent-c3="" class="cardDetailsDescription">Antalya Hotel Standard Rooms with 1 bedroom and 1 bathroom have an area of 26 m2 and the total number of the rooms is 150. In Antalya Hotel Standard Rooms which are designed beyond the standards you will experience a unique holiday.</div>
+                           <h5 _ngcontent-c3="" class="cardDetailsTitle">Standard</h5>
+                           <div _ngcontent-c3="" class="cardDetailsDescription">Play By Admiral Hotel Standard Rooms has the 1 kingsize bed. The room with 1 bathroom with area of 35 m2. There are the 100 rooms. In Play By Admiral Hotel all of the rooms designed beyond the lovely you will experience the best weekends.</div>
                               <span _ngcontent-c3="" class="cardDescMoreDetails"></span>
                            </div>
                            <div _ngcontent-c3="" class="col-sm-3 d-flex flex-wrap cardDetailsPricing">
                               <div _ngcontent-c3="" class="badgeContainer" style="position: absolute; top: 0px; right: 17px;">
                               </div>
                               <!----><!---->
-                              <p _ngcontent-c3="" class="price notAvailable"><span _ngcontent-c3=""></span> € 321.14 </p>
+                              <p _ngcontent-c3="" class="price notAvailable"><span _ngcontent-c3=""></span> € 449.99 <br>(Tourist tax included) </p>
                            </div>
                         </div>
                      </div>
@@ -12211,9 +12211,6 @@ $total_guests = $_POST["total_guests"];
         <div class="inner-container container">
           <div class="widget col-xs-6 col-md-2">
             <ul class="list-inline">
-              <li>
-                <a href="/">Home</a>
-              </li>
               <br>
               <br>
               <li>
@@ -12230,7 +12227,7 @@ $total_guests = $_POST["total_guests"];
           </div>
         </div>
       </footer>
-      <div class="copy-right" style="text-align: center"> © theluckyresort.com &amp; Spa. All Rights Reserved
+      <div class="copy-right" style="text-align: center"> © Playbyadmiral.com. All Rights Reserved
       </div>
       <!-- End of Top Footer -->
     </section>

@@ -12,11 +12,12 @@
   
   label {
     display: block;
+    margin-top: 5px;
   }
   
   input, select, textarea {
-    border-radius: 2px;
-    border: 2px solid #777;
+    border-radius: 15px;
+    border: 1px solid #ad9260;
     box-sizing: border-box;
     font-size: 1.25em;
     width: 100%;
@@ -33,24 +34,27 @@
     height: 250px;
   }
   
-  hr {
+  /* hr {
     border: 1px dotted #ccc;
-  }
+  } */
   
   #main-booking-form button {
     height: 50px;
+    width: 150px;
     background: #ad9260;
     border: none;
     color: white;
     font-size: 1.25em;
     padding: 10px 30px;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
+    margin-top: 10px;
+    font-size: small;
   }
   
-  #main-booking-form button:hover {
-    border: 2px solid black;
-  }
+  /* #main-booking-form button:hover {
+    border: 1px solid black;
+  } */
   .wrapper{
     max-width: 1100px;
     margin: 0 auto;
@@ -65,7 +69,10 @@
   #home-contact-form button{
     padding: 12px 30px;
     height: auto;
-    background: #ffa500;
+    background: #ad9260;
+    border-radius: 15px;
+    color: #fff;
+    width: 150px;
   }
   #home-contact-form button:hover{
     border: none;
@@ -90,4 +97,13 @@ body.sticky #main-header.sticky{
   #main-slider{
     display: none !important;
   }
+}
+
+.hero__button {
+  padding: 12px 30px;
+  height: auto;
+  background: #ad9260;
+  border-radius: 15px;
+  color: #fff;
+  width: 150px;
 }
