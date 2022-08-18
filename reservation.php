@@ -12113,19 +12113,19 @@ $total_guests = $_POST["total_guests"];
       font-weight: bold;
    }
 
-   body.sticky #header_id.sticky #main-menu li a {
+   body.tucky #header_id.tucky #main-menu li a {
     line-height: 100px; }
     @media (max-width: 992px) {
-      body.sticky #header_id.sticky #main-menu li a {
+      body.tucky #header_id.tucky #main-menu li a {
         line-height: 33px !important; } }
-        body.sticky #header_id.sticky #main-menu li a:hover {
+        body.tucky #header_id.tucky #main-menu li a:hover {
           color: #000!important;
         }
   </style>
   
   <section data-section-id="header-72096">
       <!-- Main Header -->
-      <header id="header_id" class="sticky">
+      <header id="header_id" class="tucky">
         <div class="inner-container container">
           <div class="left-sec col-sm-4 col-md-2 clearfix">
             <!-- Top Logo -->

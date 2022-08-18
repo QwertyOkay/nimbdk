@@ -13435,7 +13435,7 @@ body.trans-header #header_id {
   body.trans-header #header_id a {
     color: #FFFFFF; }
 
-body.sticky #header_id.sticky {
+body.tucky #header_id.tucky {
   position: fixed;
   top: 0;
   left: 0;
@@ -13444,36 +13444,36 @@ body.sticky #header_id.sticky {
   z-index: 20;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); }
-  body.sticky #header_id.sticky a {
+  body.tucky #header_id.tucky a {
     color: #333333; }
-  body.sticky #header_id.sticky .book-now-btn {
+  body.tucky #header_id.tucky .book-now-btn {
     color: #FFFFFF; }
-  body.sticky #header_id.sticky .inner-container > div {
+  body.tucky #header_id.tucky .inner-container > div {
     height: 100px; }
     @media (max-width: 300px) {
-      body.sticky #header_id.sticky .inner-container > div {
+      body.tucky #header_id.tucky .inner-container > div {
         height: 100px; } }
   @media (max-width: 992px) {
-    body.sticky #header_id.sticky #main-menu {
+    body.tucky #header_id.tucky #main-menu {
       max-height: calc( 100vh - 80px );
       overflow: auto; } }
-  body.sticky #header_id.sticky #main-menu li a {
+  body.tucky #header_id.tucky #main-menu li a {
     line-height: 100px; }
     @media (max-width: 992px) {
-      body.sticky #header_id.sticky #main-menu li a {
+      body.tucky #header_id.tucky #main-menu li a {
         line-height: 33px !important; } }
-        body.sticky #header_id.sticky #main-menu li a:hover {
+        body.tucky #header_id.tucky #main-menu li a:hover {
           color: #000!important;
         }
-  body.sticky #header_id.sticky #main-menu li ul li a {
+  body.tucky #header_id.tucky #main-menu li ul li a {
     line-height: 40px; }
-  body.sticky #header_id.sticky .book-now-btn {
+  body.tucky #header_id.tucky .book-now-btn {
     margin-top: 27px; }
-  body.sticky #header_id.sticky #top-logo {
+  body.tucky #header_id.tucky #top-logo {
     height: 80px; }
-    body.sticky #header_id.sticky #top-logo .title {
+    body.tucky #header_id.tucky #top-logo .title {
       margin-top: 4px; }
-  body.sticky #header_id.sticky #main-menu-handle {
+  body.tucky #header_id.tucky #main-menu-handle {
     margin-top: 27px; }
 
 /**
