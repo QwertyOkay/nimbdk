@@ -1548,12 +1548,7 @@ $total_guests = $_POST["total_guests"];
          src: url('//bv3.hotelrunner.com/mallory-medium.69479cce1a7107980dfc.eot#iefix') format("embedded-opentype"), url('//bv3.hotelrunner.com/mallory-medium.3211aebce77f169fe755.woff2') format("woff2"), url('//bv3.hotelrunner.com/mallory-medium.1f097eaf35aa2097619b.woff') format("woff"), url('//bv3.hotelrunner.com/mallory-medium.2f10bae4cf5996a16d6f.ttf') format("truetype");
          font-weight: 700;
          font-style: normal; }
-         /*!
-         * Bootstrap v4.1.3 (https://getbootstrap.com/)
-         * Copyright 2011-2018 The Bootstrap Authors
-         * Copyright 2011-2018 Twitter, Inc.
-         * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-         */
+         
          :root {
          --blue: #007bff;
          --indigo: #6610f2;
@@ -1600,7 +1595,6 @@ $total_guests = $_POST["total_guests"];
          display: block; }
          body {
          margin: 0;
-         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
          font-size: 1rem;
          font-weight: 400;
          line-height: 1.5;
@@ -12098,7 +12092,7 @@ $total_guests = $_POST["total_guests"];
 	<script src="custom.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-  	#main-header{
+  	#header_id{
   		display: block;
   		position: relative;
   	}
@@ -12119,19 +12113,19 @@ $total_guests = $_POST["total_guests"];
       font-weight: bold;
    }
 
-   body.sticky #main-header.sticky #main-menu li a {
+   body.sticky #header_id.sticky #main-menu li a {
     line-height: 100px; }
     @media (max-width: 992px) {
-      body.sticky #main-header.sticky #main-menu li a {
+      body.sticky #header_id.sticky #main-menu li a {
         line-height: 33px !important; } }
-        body.sticky #main-header.sticky #main-menu li a:hover {
+        body.sticky #header_id.sticky #main-menu li a:hover {
           color: #000!important;
         }
   </style>
   
   <section data-section-id="header-72096">
       <!-- Main Header -->
-      <header id="main-header" class="sticky">
+      <header id="header_id" class="sticky">
         <div class="inner-container container">
           <div class="left-sec col-sm-4 col-md-2 clearfix">
             <!-- Top Logo -->
