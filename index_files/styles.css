@@ -12297,7 +12297,7 @@ button.close {
   position: relative;
   width: 90%;
   margin: 20px auto;
-  -ms-touch-action: pan-y; }
+}
   .owl-carousel .owl-wrapper {
     display: none;
     position: relative;
@@ -12356,8 +12356,6 @@ button.close {
   -webkit-tap-highlight-color: transparent; }
 
 /* mouse grab icon */
-.owl-theme {
-  /* Styling Next and Prev buttons */ }
   .owl-theme .owl-controls {
     position: absolute;
     left: 50%;
@@ -12511,8 +12509,7 @@ button.close {
   height: 100%;
   z-index: 1043;
   position: fixed;
-  outline: none !important;
-  -webkit-backface-visibility: hidden; }
+  outline: none !important; }
   .mfp-wrap.mfp-fade {
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -13263,6 +13260,9 @@ blockquote {
           -webkit-transition: all 0.5s ease;
           -o-transition: all 0.5s ease;
           transition: all 0.5s ease; }
+          #main-header #main-menu li a:hover {
+            color: #000!important;
+          }
       #main-header #main-menu li > ul {
         position: absolute;
         left: 50%;
@@ -13454,8 +13454,6 @@ body.sticky #main-header.sticky {
     @media (max-width: 300px) {
       body.sticky #main-header.sticky .inner-container > div {
         height: 100px; } }
-    body.sticky #main-header.sticky .inner-container > div.left-sec:before {
-      /*height: 80px;*/ }
   @media (max-width: 992px) {
     body.sticky #main-header.sticky #main-menu {
       max-height: calc( 100vh - 80px );
@@ -14670,7 +14668,6 @@ body.sticky #main-header.sticky {
             border: 1px solid #FFFFFF;
             background: rgba(255, 255, 255, 0.4);
             margin-right: 10px;
-            float: left;
             position: relative; }
             .room-container .room-box .img-container .check-box-container label span:before {
               font: 20px "FontAwesome";

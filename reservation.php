@@ -1041,10 +1041,10 @@ $total_guests = $_POST["total_guests"];
          .toast-message label {
          color: #FFFFFF;
          }
-         .toast-message a:hover {
+         /* .toast-message a:hover {
          color: #CCCCCC;
          text-decoration: none;
-         }
+         } */
          .toast-close-button {
          position: relative;
          right: -0.3em;
@@ -1854,6 +1854,9 @@ $total_guests = $_POST["total_guests"];
          display: inline-block; }
          .list-inline-item:not(:last-child) {
          margin-right: 0.5rem; }
+         .list-inline:hover {
+            color: #000!impportant;
+         }
          .initialism {
          font-size: 90%;
          text-transform: uppercase; }
@@ -4259,8 +4262,8 @@ $total_guests = $_POST["total_guests"];
          color: rgba(0, 0, 0, 0.5); }
          .navbar-light .navbar-text a {
          color: rgba(0, 0, 0, 0.9); }
-         .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-         color: rgba(0, 0, 0, 0.9); }
+         /* .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
+         color: rgba(0, 0, 0, 0.9); } */
          .navbar-dark .navbar-brand {
          color: #fff; }
          .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
@@ -4283,10 +4286,8 @@ $total_guests = $_POST["total_guests"];
          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
          .navbar-dark .navbar-text {
          color: rgba(255, 255, 255, 0.5); }
-         .navbar-dark .navbar-text a {
-         color: #fff; }
-         .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-         color: #fff; }
+         /* .navbar-dark .navbar-text a {
+         color: #fff; } */
          .card {
          position: relative;
          display: flex;
@@ -4568,10 +4569,10 @@ $total_guests = $_POST["total_guests"];
          .badge-secondary {
          color: #fff;
          background-color: #6c757d; }
-         .badge-secondary[href]:hover, .badge-secondary[href]:focus {
+         /* .badge-secondary[href]:hover, .badge-secondary[href]:focus {
          color: #fff;
          text-decoration: none;
-         background-color: #545b62; }
+         background-color: #545b62; } */
          .badge-success {
          color: #fff;
          background-color: #28a745; }
@@ -10084,7 +10085,8 @@ $total_guests = $_POST["total_guests"];
          div.cart {
          min-height: 200px; }
          .contentContainerCard, .cartContainerInner {
-         background: var(--cardsBackgroundColor) !important; }
+         background: var(--cardsBackgroundColor) ; 
+      }
          button, .btn {
          border-radius: 0px !important; }
          .navbar {
@@ -10113,7 +10115,7 @@ $total_guests = $_POST["total_guests"];
          font-size: var(--font-size-sm);
          z-index: 2; }
          .cartContainer .cartContainerInner {
-         background: var(--clearTextColor);
+         background: #d0cec5;
          box-shadow: var(--boxShadow);
          color: var(--cardTextColor);
          margin-bottom: 1rem; }
@@ -10202,11 +10204,11 @@ $total_guests = $_POST["total_guests"];
          position: absolute;
          right: 30px;
          bottom: 35px;
-         font-size: 18px;
-         font-weight: 300;
-         color: var(--priceColor); }
+         font-size: 20px;
+         font-weight: 500;
+         color: #ad9260; }
          .contentContainer .price.notAvailable {
-         bottom: 0px; }
+         bottom: 0px; left: 15px; }
          .contentContainer .price span {
          font-size: 18px;
          position: absolute;
@@ -10234,7 +10236,8 @@ $total_guests = $_POST["total_guests"];
          align-self: center;
          max-width: 240px;
          max-height: 240px;
-         min-height: 160px; }
+         min-height: 220px;
+         padding:10px; }
          .contentContainer .contentContainerCard .imgContainerGroup {
          max-width: 300px;
          padding: 0px;
@@ -10299,7 +10302,8 @@ $total_guests = $_POST["total_guests"];
          .contentContainer.contentContainer {
          order: -1 !important; } }
          .contentContainer.contentContainer .contentContainerCard:not(.fullCover), .contentContainer.contentContainer .stepProgressBarContainer {
-         margin-left: 25px; }
+         margin-left: 25px;
+         border-radius:15px; }
          .contentContainer.cartContainer {
          order: -1; }
          .contentContainer.cartContainer .contentContainerCard:not(.fullCover), .contentContainer.cartContainer .stepProgressBarContainer {
@@ -10312,9 +10316,11 @@ $total_guests = $_POST["total_guests"];
          .searchSummary {
          font-size: var(--font-size-sm); }
          .cardDetailsTitle {
-         font-size: 18px;
+         font-size: 24px;
          font-weight: 500;
-         color: var(--cardTextColor);
+         margin-left: 20px;
+         padding: 0 20px;
+         color: #ad9260;
          margin-bottom: 10px;
          max-height: 50px;
          overflow: hidden; }
@@ -10327,11 +10333,14 @@ $total_guests = $_POST["total_guests"];
          overflow: hidden; }
          .cardDetailsDescription {
          font-size: 16px;
-         color: var(--cardTextColor);
-         max-height: 60px;
+         color: #000;
+         max-height: 120px;
          overflow: hidden;
          position: relative;
-         margin-bottom: 25px; }
+         margin-bottom: 180px;
+         margin-left: 20px;
+         padding: 20px
+       }
          @media (max-width: 1199.98px) {
          .cardDetailsDescription {
          font-size: var(--font-size-xs);
@@ -12076,8 +12085,8 @@ $total_guests = $_POST["total_guests"];
    </head>
    <body>
 
-    <link rel="stylesheet" type="text/css" href="./index_files/styles.css">
-   	    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="./index_files/styles.css?ver=5">
+   	    <link rel="stylesheet" type="text/css" href="custom.css?ver=5">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="custom.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
@@ -12094,19 +12103,28 @@ $total_guests = $_POST["total_guests"];
   		display: block;
   		text-align: center;
   		margin: 20px 0 0;
-      color: #C5A46D;
+      color: #ad9260;
   	}
   	.heading-box {
-  		margin:0 0 10px;
+  		margin:0 0 30px;
   	}
    .cursor-p{
       font-weight: bold;
    }
+
+   body.sticky #main-header.sticky #main-menu li a {
+    line-height: 100px; }
+    @media (max-width: 992px) {
+      body.sticky #main-header.sticky #main-menu li a {
+        line-height: 33px !important; } }
+        body.sticky #main-header.sticky #main-menu li a:hover {
+          color: #000!important;
+        }
   </style>
   
-    <section data-section-id="header-72096">
+  <section data-section-id="header-72096">
       <!-- Main Header -->
-      <header id="main-header">
+      <header id="main-header" class="sticky">
         <div class="inner-container container">
           <div class="left-sec col-sm-4 col-md-2 clearfix">
             <!-- Top Logo -->
@@ -12120,7 +12138,7 @@ $total_guests = $_POST["total_guests"];
           <div class="right-sec col-sm-8 col-md-10 clearfix">
             <!-- Main Menu -->
             <nav id="main-menu">
-              <ul class="list-inline">
+              <ul class="list-inline" style="margin-left: 108px;">
                 <li>
                   <a href="policy.html">Policy</a>
                 </li>
@@ -12136,8 +12154,8 @@ $total_guests = $_POST["total_guests"];
         </div>
       </header>
     </section>
-      <app-root _nghost-c0="" ng-version="6.1.10">
-         <app-search class="d-block" _nghost-c3="">
+      <app-root _nghost-c0="" ng-version="6.1.10" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/Giriş_2.jpg')">
+         <app-search class="d-block" _nghost-c3="" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/Giriş_2.jpg')">
             <div _ngcontent-c3="" class="container mainContainer marT30">
 
         <div class="heading-box">
@@ -12189,7 +12207,7 @@ $total_guests = $_POST["total_guests"];
                            </div>
                            <div _ngcontent-c3="" class="col-sm-6 cartDetailsContainer padT10 long">
                            <h5 _ngcontent-c3="" class="cardDetailsTitle">Standard</h5>
-                           <div _ngcontent-c3="" class="cardDetailsDescription">Play By Admiral Hotel Standard Rooms has the 1 kingsize bed. The room with 1 bathroom with area of 35 m2. There are the 100 rooms. In Play By Admiral Hotel all of the rooms designed beyond the lovely you will experience the best weekends.</div>
+                           <div _ngcontent-c3="" class="cardDetailsDescription">Play By Admiral Hotel Standard Rooms has the kingsize bed. The room with 1 bathroom with area of 35 m2. There are the 100 rooms. In Play By Admiral Hotel all of the rooms designed beyond the lovely you will experience the best weekends.</div>
                               <span _ngcontent-c3="" class="cardDescMoreDetails"></span>
                            </div>
                            <div _ngcontent-c3="" class="col-sm-3 d-flex flex-wrap cardDetailsPricing">
