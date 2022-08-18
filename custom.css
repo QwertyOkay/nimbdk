@@ -73,6 +73,10 @@
   }
   #home-contact-form{
     text-align: center;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+
   }
   #home-contact-form input[type="email"]{
     max-width: 320px;
