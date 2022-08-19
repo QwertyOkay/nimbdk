@@ -12081,8 +12081,6 @@ $total_guests = $_POST["total_guests"];
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
    </head>
    <body>
 
@@ -12161,12 +12159,12 @@ $total_guests = $_POST["total_guests"];
 
         <div class="heading-box">
           <h2>Your Stay</h2>
-          <!-- Title -->
+         
           <div class="subtitle"></div>
-          <!-- Subtitle -->
+         
         </div>
                <div _ngcontent-c3="" class="row mar0">
-                  <!---->
+             
                   <div _ngcontent-c3="" class="col-lg-4 col-xl-3 cartContainer left pad0">
                      <app-cart _ngcontent-c3="" class="d-block sticky-top sticky-top-margin" _nghost-c7="">
                         <div _ngcontent-c7="" class="cartContainerInner border">
@@ -12180,31 +12178,31 @@ $total_guests = $_POST["total_guests"];
                               <div _ngcontent-c7="" class="row"></div>
                               <div _ngcontent-c7="" class="row">
                                  <div _ngcontent-c7="" class="col-12 searchGuests left">
-                                    <?php echo $total_guests; ?> Adults <!---->
+                                    <?php echo $total_guests; ?> Adults 
                                  </div>
                               </div>
                               <div _ngcontent-c7="" class="row">
                                  <div _ngcontent-c7="" class="col-7 searchRooms left"> 1 Room </div>
                               </div>
                               <div _ngcontent-c7="" class="row marT10">
-                                 <!---->
+                               
                               </div>
                            </div>
-                           <!---->
+                           
                            <div _ngcontent-c7="" class="summarySelections">
-                              <!---->
+                              
                            </div>
                         </div>
-                        <!----><!---->
+                        
                      </app-cart>
                   </div>
-                  <!----><!---->
+                  
                   <div _ngcontent-c3="" class="contentContainer col-lg-8 col-xl-9 right pad0">
-                     <!----><!----><!----><!----><!----><!---->
+                     
                      <div _ngcontent-c3="" class="contentContainerCard border">
                         <div _ngcontent-c3="" class="row mar0 cardMainDetails">
                            <div _ngcontent-c3="" class="col-sm-3 imgContainer order-sm-0">
-                              <!----><img _ngcontent-c3="" alt="" src="https://dg2kj7uuq7g1w.cloudfront.net/-/media/images/nimbv2/hotel/rooms/hero/standard_double_room_818x610.jpg?w=818"><!---->
+                              <img _ngcontent-c3="" alt="" src="https://dg2kj7uuq7g1w.cloudfront.net/-/media/images/nimbv2/hotel/rooms/hero/standard_double_room_818x610.jpg?w=818"><!---->
                            </div>
                            <div _ngcontent-c3="" class="col-sm-6 cartDetailsContainer padT10 long">
                            <h5 _ngcontent-c3="" class="cardDetailsTitle">Standard</h5>
@@ -12214,12 +12212,12 @@ $total_guests = $_POST["total_guests"];
                            <div _ngcontent-c3="" class="col-sm-3 d-flex flex-wrap cardDetailsPricing">
                               <div _ngcontent-c3="" class="badgeContainer" style="position: absolute; top: 0px; right: 17px;">
                               </div>
-                              <!----><!---->
+                              
                               <p _ngcontent-c3="" class="price notAvailable"><span _ngcontent-c3=""></span> € 449.99 <br>(Tourist tax included) </p>
                            </div>
                         </div>
                      </div>
-                     <!---->
+                     
                   </div>
                </div>
             </div>
@@ -12227,7 +12225,7 @@ $total_guests = $_POST["total_guests"];
       </app-root>
 
     <section data-section-id="footer-72097">
-      <!-- Top Footer -->
+      
       <footer id="top-footer">
         <div class="inner-container container">
           <div class="widget col-xs-6 col-md-2">
@@ -12250,7 +12248,7 @@ $total_guests = $_POST["total_guests"];
       </footer>
       <div class="copy-right" style="text-align: center"> © Playbyadmiral.com. All Rights Reserved
       </div>
-      <!-- End of Top Footer -->
+      
     </section>
    </body>
 </html>
