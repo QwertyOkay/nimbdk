@@ -7023,7 +7023,7 @@ $total_guests = $_POST["total_guests"];
          text-align: left !important; }
          .text-right {
          text-align: right !important; }
-         .text-center {
+         .heading__c {
          text-align: center !important; }
          @media (min-width: 576px) {
          .text-sm-left {
@@ -10932,7 +10932,7 @@ $total_guests = $_POST["total_guests"];
          margin-bottom: 10px;
          margin-right: 0px;
          font-size: var(--font-size-sm); } }
-         
+
          div.dateRangeContainer {
          display: flex;
          justify-content: center;
