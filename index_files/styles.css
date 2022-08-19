@@ -13174,18 +13174,18 @@ blockquote {
       position: relative;
       height: auto; } }
   @media (max-width: 992px) {
-    #header_id .inner-container {
+    #header_id .side {
       padding: 0; } }
-  #header_id .inner-container > div {
+  #header_id .side > div {
     /* height: 110px; */
     padding: 0;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-    #header_id .inner-container > div.left-sec {
+    #header_id .side > div.left-sec {
       background: #fff;
       position: relative; }
-      #header_id .inner-container > div.left-sec:before {
+      #header_id .side > div.left-sec:before {
         display: block;
         content: "";
         position: absolute;
@@ -13314,20 +13314,20 @@ blockquote {
         -o-transition: all 0.6s ease;
         transition: all 0.6s ease; }
   @media (max-width: 1200px) {
-    #header_id .inner-container {
+    #header_id .side {
       padding: 0;
       width: 100%; }
-      #header_id .inner-container > div.left-sec {
+      #header_id .side > div.left-sec {
         padding-left: 10px; }
-      #header_id .inner-container > div.right-sec {
+      #header_id .side > div.right-sec {
         padding-right: 15px; } }
   @media (max-width: 992px) {
-    #header_id .inner-container > div {
+    #header_id .side > div {
       float: left; }
-      #header_id .inner-container > div.left-sec {
+      #header_id .side > div.left-sec {
         width: 200px;
         padding-left: 15px; }
-      #header_id .inner-container > div.right-sec {
+      #header_id .side > div.right-sec {
         width: calc( 100% - 200px ); }
     #header_id .right-sec {
       background: #FFFFFF; }
@@ -13384,30 +13384,30 @@ blockquote {
           #header_id #main-menu li ul li:last-child a {
             border-bottom: 1px solid #d0d4d7; } }
   @media (max-width: 420px) {
-    #header_id .inner-container > div.left-sec {
+    #header_id .side > div.left-sec {
       width: 160px; }
-      #header_id .inner-container > div.left-sec #top-logo .title {
+      #header_id .side > div.left-sec #top-logo .title {
         font-size: 22px;
         margin: 5px 0; }
-    #header_id .inner-container > div.right-sec {
+    #header_id .side > div.right-sec {
       width: calc(100% - 160px); } }
   @media (max-width: 300px) {
-    #header_id .inner-container > div {
+    #header_id .side > div {
       height: 50px; }
-      #header_id .inner-container > div.left-sec {
+      #header_id .side > div.left-sec {
         width: 100%;
         padding: 0; }
-        #header_id .inner-container > div.left-sec #top-logo {
+        #header_id .side > div.left-sec #top-logo {
           float: none;
           padding: 0;
           height: 50px; }
-          #header_id .inner-container > div.left-sec #top-logo .title {
+          #header_id .side > div.left-sec #top-logo .title {
             border: 0; }
-          #header_id .inner-container > div.left-sec #top-logo i {
+          #header_id .side > div.left-sec #top-logo i {
             display: none; }
-      #header_id .inner-container > div.right-sec {
+      #header_id .side > div.right-sec {
         width: 100%; }
-        #header_id .inner-container > div.right-sec a.btn, #header_id .inner-container > div.right-sec aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #header_id .inner-container > div.right-sec a {
+        #header_id .side > div.right-sec a.btn, #header_id .side > div.right-sec aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #header_id .side > div.right-sec a {
           margin-top: 10px; }
     #header_id #main-menu-handle {
       margin: 10px 0 0 15px !important;
@@ -13448,10 +13448,10 @@ body.tucky #header_id.tucky {
     color: #333333; }
   body.tucky #header_id.tucky .book-now-btn {
     color: #FFFFFF; }
-  body.tucky #header_id.tucky .inner-container > div {
+  body.tucky #header_id.tucky .side > div {
     height: 100px; }
     @media (max-width: 300px) {
-      body.tucky #header_id.tucky .inner-container > div {
+      body.tucky #header_id.tucky .side > div {
         height: 100px; } }
   @media (max-width: 992px) {
     body.tucky #header_id.tucky #main-menu {
@@ -14109,7 +14109,7 @@ body.tucky #header_id.tucky {
 #buy-theme {
   background: #f8f9f9;
   padding: 70px 0; }
-  #buy-theme .inner-container {
+  #buy-theme .side {
     max-width: 900px; }
   #buy-theme .title {
     font-size: 22px;

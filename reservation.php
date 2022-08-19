@@ -12124,7 +12124,7 @@ $total_guests = $_POST["total_guests"];
   <section data-section-id="header-72096">
       <!-- Main Header -->
       <header id="header_id" class="tucky">
-        <div class="inner-container container">
+        <div class="side container">
           <div class="left-sec col-sm-4 col-md-2 clearfix">
             <!-- Top Logo -->
             <a href="/">
@@ -12227,7 +12227,7 @@ $total_guests = $_POST["total_guests"];
     <section data-section-id="footer-72097">
       
       <footer id="top-footer">
-        <div class="inner-container container">
+        <div class="side container">
           <div class="widget col-xs-6 col-md-2">
             <ul class="list-inline">
               <br>
