@@ -4,17 +4,17 @@
   }
   
   label {
-    display: block;
     margin-top: 5px;
+    display: block;
   }
   
   input, select, textarea {
+    width: 100%;
+    padding: 10px;
     border-radius: 15px;
     border: 1px solid #ad9260;
     box-sizing: border-box;
     font-size: 1.25em;
-    width: 100%;
-    padding: 10px;
     background: rgba(0, 0, 0, 0.071); 
   }
 
@@ -24,26 +24,23 @@
   }
   
   .contact-form-box input::placeholder {
-    color: #fff;
     font-size: 18px;
+
+    color: #fff;
   }
   
   textarea {
     height: 250px;
   }
   
-  /* hr {
-    border: 1px dotted #ccc;
-  } */
-  
   #reserv__form button {
     margin-top: 9px;
     padding: 9px 29px;
+    background: #ad9260;
 
     height: 48px;
-    width: 149px;
-    background: #ad9260;
     border: #fff;
+    width: 149px;
     color: white;
 
     font-size: small;
@@ -53,17 +50,23 @@
   }
   
   .wrapper{
-    max-width: 1100px;
     margin: 0 auto;
+
+    max-width: 1100px;
     overflow: hidden;
   }
 
-  .copy-right{
+  .footer__c{
+    text-align: center; 
+
+    color: #000;
     padding: 10px 0;
   }
+
+
 .btn-default{
-    max-width: 350px;
-    border-radius: 15px;
+  border-radius: 15px;
+    max-width: 349px;
 }
 .contact-form-box input {
   margin: 0 0 60px;
@@ -80,9 +83,10 @@ body.tucky #header_id.tucky{
 .hero__button {
   padding: 12px 30px;
   height: auto;
+  color: #fff;
+
   background: #ad9260;
   border-radius: 15px;
-  color: #fff;
   width: 150px;
 }
 
@@ -102,8 +106,8 @@ margin-left: 108px; }
 }
 
 .owl2 {
+  display: block; 
 width: 11856px; left: 0px; 
-display: block; 
 transition: all 800ms ease 0s; 
 transform: translate3d(-1482px, 0px, 0px);
 }
@@ -114,13 +118,13 @@ transform: translate3d(-1482px, 0px, 0px);
 
 #reserv__form {
   background-color: #f6f3e7;
+  width: 480px;
+  height: 480px;
   position: absolute;
   left: 50%;
   top: 54%;
   text-align: center;
   color: #FFFFFF;
-  width: 480px;
-  height: 480px;
 
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -135,9 +139,10 @@ transform: translate3d(-1482px, 0px, 0px);
 
   #reserv__form h2 span {
     font-weight: bold; }
+
   #reserv__form h2 {
-    font-weight: 100;
     font-size: 28px;
+    font-weight: 100;
     margin: 109px 0 19px; }
 
 
@@ -159,8 +164,8 @@ transform: translate3d(-1482px, 0px, 0px);
           top: auto;
           position: initial;
           
-          padding: 0;
           width: 100%;
+          padding: 0;
           
           -moz-transform: translateX(0);
           -ms-transform: translateX(0);
@@ -170,70 +175,77 @@ transform: translate3d(-1482px, 0px, 0px);
   #reserv__form .booking-form {
     margin: 0 auto;
     width: 318px; }
+
     #reserv__form  .booking-form .booking-fields {
-      margin: 3px 0;
       position: relative;
+      margin: 3px 0;
       padding: 0; }
 
       #reserv__form .booking-form .booking-fields i.fa {
         position: absolute;
         top: 13px;
+
         right: 15px; }
+
     #reserv__form .booking-form input[type="text"], #reserv__form .booking-form .chosen-container {
+      height: 40px;
       border: 1px solid #FFFFFF;
       width: 100%;
-      height: 40px;
       background: rgba(51, 51, 51, 0.4);
       color: #FFFFFF; }
-      #reserv__form .booking-form input[type="text"].placeholder, #reserv__form .booking-form .chosen-container.placeholder {
-        color: #FFFFFF; }
-      #reserv__form .booking-form input[type="text"]:-moz-placeholder, #reserv__form .booking-form .chosen-container:-moz-placeholder {
-        color: #FFFFFF; }
-      #reserv__form .booking-form input[type="text"]::-moz-placeholder, #reserv__form .booking-form .chosen-container::-moz-placeholder {
-        color: #FFFFFF; }
-      #reserv__form .booking-form input[type="text"]:-ms-input-placeholder, #reserv__form .booking-form .chosen-container:-ms-input-placeholder {
-        color: #FFFFFF; }
-      #reserv__form .booking-form input[type="text"]::-webkit-input-placeholder, #reserv__form .booking-form .chosen-container::-webkit-input-placeholder {
-        color: #FFFFFF; }
+        
     #reserv__form .booking-form input[type="text"] {
       padding: 0 15px; }
+
     #reserv__form .booking-form select {
-      background: rgba(51, 51, 51, 0.4);
-      border: 1px solid #FFFFFF;
       width: 100%;
       height: 40px;
+      background: rgba(51, 51, 51, 0.4);
+      border: 1px solid #FFFFFF;
       padding: 0 10px; }
+      
       #reserv__form .booking-form select option {
         background: #FFFFFF;
         color: #333333; }
+
         #reserv__form .booking-form select option:hover {
           background: #C5A46D;
           color: #FFFFFF; }
+
     #reserv__form .booking-form .booking-button-container {
       padding-top: 3px;
       clear: both; }
+
     #reserv__form .booking-form .chosen-container {
       text-align: left; }
+
       #reserv__form .booking-form .chosen-container .chosen-single {
         color: #FFFFFF;
         padding-left: 17px; }
+        
         #reserv__form .booking-form .chosen-container .chosen-single div {
           width: 33px; }
+
         #reserv__form .booking-form .chosen-container .chosen-single b:before, #reserv__form .booking-form .chosen-container .chosen-single b:after {
           background: #FFFFFF; }
+
       #reserv__form .booking-form .chosen-container .chosen-search {
         display: none; }
+
       #reserv__form .booking-form .chosen-container .chosen-drop {
-        background: #333333;
-        border: 0;
         width: calc(100% + 2px);
         left: -1px;
+        background: #333333;
+        border: 0;
         padding-bottom: 5px; }
+
       #reserv__form .booking-form .chosen-container.chosen-container-active .chosen-single {
         background: rgba(51, 51, 51, 0.4); }
+
       #reserv__form .booking-form .chosen-container.chosen-container-active .chosen-drop .chosen-results {
         margin: 0;
         padding: 0; }
+
         #reserv__form .booking-form .chosen-container.chosen-container-active .chosen-drop .chosen-results li {
           padding: 0 15px;
           line-height: 30px;
@@ -241,21 +253,25 @@ transform: translate3d(-1482px, 0px, 0px);
           -webkit-transition: background 0.3s ease;
           -o-transition: background 0.3s ease;
           transition: background 0.3s ease; }
+
           #reserv__form .booking-form .chosen-container.chosen-container-active .chosen-drop .chosen-results li:hover {
             background: #C5A46D;
             color: #FFFFFF; }
+
     #reserv__form .booking-form input[type="submit"] {
       width: 100%;
       height: 40px; }
+
   #reserv__form.addcss {
-    background: rgba(255,255,255,0.75);
     position: absolute;
+
+    width: 793px;
+    height: auto;
+    background: rgba(255,255,255,0.75);
     left: 140px;
     top: 35%;
     text-align: center;
     color: #333333;
-    width: 793px;
-    height: auto;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -266,69 +282,40 @@ transform: translate3d(-1482px, 0px, 0px);
     -webkit-transform: translateX(0) translateY(-50%);
     transform: translateX(0) translateY(-50%);
     padding: 10px; }
+
+
     #reserv__form.addcss h2 {
       color: #000;
       margin-top: 0;
     font-weight: 500; }
+
     #reserv__form.addcss .booking-form {
       width: 100%; }
+
     #reserv__form.addcss input[type="text"], #reserv__form.addcss .chosen-container, #reserv__form.addcss select {
       border: 1px solid #ad9260;
       background: rgba(255, 255, 255, 0.7);
       color: #333333;
       height: 50px; }
-      #reserv__form.addcss input[type="text"].placeholder, #reserv__form.addcss .chosen-container.placeholder, #reserv__form.addcss select.placeholder {
-        color: #333333; }
-      #reserv__form.addcss input[type="text"]:-moz-placeholder, #reserv__form.addcss .chosen-container:-moz-placeholder, #reserv__form.addcss select:-moz-placeholder {
-        color: #333333; }
-      #reserv__form.addcss input[type="text"]::-moz-placeholder, #reserv__form.addcss .chosen-container::-moz-placeholder, #reserv__form.addcss select::-moz-placeholder {
-        color: #333333; }
-      #reserv__form.addcss input[type="text"]:-ms-input-placeholder, #reserv__form.addcss .chosen-container:-ms-input-placeholder, #reserv__form.addcss select:-ms-input-placeholder {
-        color: #333333; }
-      #reserv__form.addcss input[type="text"]::-webkit-input-placeholder, #reserv__form.addcss .chosen-container::-webkit-input-placeholder, #reserv__form.addcss select::-webkit-input-placeholder {
-        color: #333333; }
-      #reserv__form.addcss input[type="text"] .chosen-single, #reserv__form.addcss .chosen-container .chosen-single, #reserv__form.addcss select .chosen-single {
-        color: #333333;
-        height: 48px;
-        line-height: 48px; }
-        #reserv__form.addcss input[type="text"] .chosen-single b:before, #reserv__form.addcss input[type="text"] .chosen-single b:after, #reserv__form.addcss .chosen-container .chosen-single b:before, #reserv__form.addcss .chosen-container .chosen-single b:after, #reserv__form.addcss select .chosen-single b:before, #reserv__form.addcss select .chosen-single b:after {
-          top: 24px;
-          background: #333333; }
-      #reserv__form.addcss input[type="text"].chosen-container-active .chosen-single, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-single, #reserv__form.addcss select.chosen-container-active .chosen-single {
-        background: #FFFFFF; }
-      #reserv__form.addcss input[type="text"].chosen-container-active .chosen-drop, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-drop, #reserv__form.addcss select.chosen-container-active .chosen-drop {
-        background: #FFFFFF;
-        border: 1px solid #C5A46D; }
-        #reserv__form.addcss input[type="text"].chosen-container-active .chosen-drop .chosen-results, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-drop .chosen-results, #reserv__form.addcss select.chosen-container-active .chosen-drop .chosen-results {
-          margin: 0;
-          padding: 0; }
-          #reserv__form.addcss input[type="text"].chosen-container-active .chosen-drop .chosen-results li, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-drop .chosen-results li, #reserv__form.addcss select.chosen-container-active .chosen-drop .chosen-results li {
-            padding: 0 15px;
-            line-height: 30px;
-            color: #333333;
-            -webkit-transition: background 0.3s ease;
-            -o-transition: background 0.3s ease;
-            transition: background 0.3s ease; }
-            #reserv__form.addcss input[type="text"].chosen-container-active .chosen-drop .chosen-results li:hover, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-drop .chosen-results li:hover, #reserv__form.addcss select.chosen-container-active .chosen-drop .chosen-results li:hover {
-              background: #C5A46D;
-              color: #FFFFFF; }
-      #reserv__form.addcss input[type="text"] option:hover, #reserv__form.addcss .chosen-container option:hover, #reserv__form.addcss select option:hover {
-        color: #FFFFFF;
-        background: #C5A46D; }
+
+
     #reserv__form.addcss i {
       color: #333333; }
       #reserv__form.addcss i.fa {
         top: 22px !important; }
+
     #reserv__form.addcss .booking-fields {
       padding: 5px 0; }
     #reserv__form.addcss .booking-button-container {
       padding-top: 9px; }
       #reserv__form.addcss .booking-button-container input {
         height: 50px; }
+
   @media (max-width: 992px) {
     #reserv__form {
-      background: #333333;
+
       position: initial;
+      background: #333333;
       left: auto;
       top: auto;
       padding: 20px 15px;
@@ -343,55 +330,74 @@ transform: translate3d(-1482px, 0px, 0px);
       -ms-transform: translateX(0) translateY(0);
       -webkit-transform: translateX(0) translateY(0);
       transform: translateX(0) translateY(0); }
+
       #reserv__form h2 {
         margin: 0 0 20px; }
+
       #reserv__form .booking-form {
         width: 100%; }
+
         #reserv__form .booking-form .booking-fields {
           padding: 0 15px; }
+
           #reserv__form .booking-form .booking-fields i.fa {
             right: 25px; }
+
         #reserv__form .booking-form .booking-button-container {
           padding: 3px 15px 0; }
+
       #reserv__form.addcss {
-        background: #333333;
         position: initial;
+        background: #333333;
         left: auto;
+
         top: auto;
         padding: 40px 15px 60px;
         background: #ecedee;
         width: 100%;
+
         height: auto;
         -moz-border-radius: 0;
         -webkit-border-radius: 0;
         border-radius: 0;
+
         -webkit-box-shadow: none;
         box-shadow: none;
+
+
         -moz-transform: translateX(0) translateY(0);
         -ms-transform: translateX(0) translateY(0);
         -webkit-transform: translateX(0) translateY(0);
         transform: translateX(0) translateY(0); }
+
         #reserv__form.addcss h2 {
           margin: 0 0 30px; }
+
         #reserv__form.addcss .booking-form {
           width: 100%; }
+
           #reserv__form.addcss .booking-form .booking-fields {
             padding: 0 15px; } }
+
         @media (max-width: 992px) and (max-width: 600px) {
           #reserv__form.addcss .booking-form .booking-fields {
             width: 100%;
             float: none; } }
+
   @media (max-width: 992px) {
             #reserv__form.addcss .booking-form .booking-fields i.fa {
               right: 25px;
               top: 18px !important; }
+              
           #reserv__form.addcss .booking-form .booking-button-container {
             padding: 3px 15px 0; } }
   @media (max-width: 420px) {
     #reserv__form.addcss .booking-form .booking-fields {
       padding: 0 !important; }
+
       #reserv__form.addcss .booking-form .booking-fields i.fa {
         right: 10px; }
+        
     #reserv__form.addcss .booking-button-container {
       padding: 3px 0 0 !important; } }
 
@@ -409,8 +415,6 @@ transform: translate3d(-1482px, 0px, 0px);
           margin-bottom: 220px;
           position: relative;}
 
-          #blocks__about .room-boxes:last-child, #special-dishes .room-boxes:last-child, #blocks__about .package-boxes:last-child, #special-dishes .package-boxes:last-child, #special-packages-type-2 .room-boxes:last-child, #special-packages-type-2 .package-boxes:last-child {
-            margin-bottom: 0; }
           #blocks__about .room-boxes:before, #special-dishes .room-boxes:before, #blocks__about .package-boxes:before, #special-dishes .package-boxes:before, #special-packages-type-2 .room-boxes:before, #special-packages-type-2 .package-boxes:before {
             display: block;
             content: "";
@@ -428,10 +432,12 @@ transform: translate3d(-1482px, 0px, 0px);
             position: absolute;
             left: 47%;
             top: 50%;
+
             max-width: 100%;
             -webkit-transition: all 1s ease;
             -o-transition: all 1s ease;
             transition: all 1s ease;
+
             -moz-transform: translateX(-50%) translateY(-50%);
             -ms-transform: translateX(-50%) translateY(-50%);
             -webkit-transform: translateX(-50%) translateY(-50%);
@@ -441,11 +447,14 @@ transform: translate3d(-1482px, 0px, 0px);
             position: absolute;
             left: 0;
             top: 0;
+
             background: #788186;
             color: #FFFFFF;
             padding: 170px 30px 30px;
+
             height: 100%;
             z-index: 1;
+
             -webkit-transition: all 1s ease;
             -o-transition: all 1s ease;
             transition: all 1s ease; }
@@ -453,6 +462,7 @@ transform: translate3d(-1482px, 0px, 0px);
             #blocks__about .room-boxes .room-details .title, #special-dishes .room-boxes .room-details .title, #blocks__about .room-boxes .package-details .title, #special-dishes .room-boxes .package-details .title, #blocks__about .package-boxes .room-details .title, #special-dishes .package-boxes .room-details .title, #blocks__about .package-boxes .package-details .title, #special-dishes .package-boxes .package-details .title, #special-packages-type-2 .room-boxes .room-details .title, #special-packages-type-2 .room-boxes .package-details .title, #special-packages-type-2 .package-boxes .room-details .title, #special-packages-type-2 .package-boxes .package-details .title {
               font-size: 35px;
               font-weight: bold;
+              
               letter-spacing: -1px;
               color: #FFFFFF; }
 
@@ -462,7 +472,7 @@ transform: translate3d(-1482px, 0px, 0px);
               width: initial;
               padding: 15px; }
 
-            #blocks__about .room-boxes .room-details .btn, #special-dishes .room-boxes .room-details .btn, #blocks__about .room-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #blocks__about .room-boxes .room-details a, #special-dishes .room-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-dishes .room-boxes .room-details a, #blocks__about .room-boxes .package-details .btn, #special-dishes .room-boxes .package-details .btn, #blocks__about .room-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #blocks__about .room-boxes .package-details a, #special-dishes .room-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-dishes .room-boxes .package-details a, #blocks__about .package-boxes .room-details .btn, #special-dishes .package-boxes .room-details .btn, #blocks__about .package-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #blocks__about .package-boxes .room-details a, #special-dishes .package-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-dishes .package-boxes .room-details a, #blocks__about .package-boxes .package-details .btn, #special-dishes .package-boxes .package-details .btn, #blocks__about .package-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #blocks__about .package-boxes .package-details a, #special-dishes .package-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-dishes .package-boxes .package-details a, #special-packages-type-2 .room-boxes .room-details .btn, #special-packages-type-2 .room-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-packages-type-2 .room-boxes .room-details a, #special-packages-type-2 .room-boxes .package-details .btn, #special-packages-type-2 .room-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-packages-type-2 .room-boxes .package-details a, #special-packages-type-2 .package-boxes .room-details .btn, #special-packages-type-2 .package-boxes .room-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-packages-type-2 .package-boxes .room-details a, #special-packages-type-2 .package-boxes .package-details .btn, #special-packages-type-2 .package-boxes .package-details aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #special-packages-type-2 .package-boxes .package-details a {
+            #blocks__about .room-boxes .room-details .btn, #special-dishes .room-boxes .room-details .btn, #blocks__about .room-boxes .room-details aside.sidebar  .tagcloud a, aside.sidebar .tagcloud #blocks__about .room-boxes .room-details a, #special-dishes .room-boxes .room-details aside.sidebar .tagcloud a, aside.sidebar .tagcloud #special-dishes .room-boxes .room-details a, #blocks__about .room-boxes .package-details .btn, #special-dishes .room-boxes .package-details .btn, #blocks__about .room-boxes .package-details aside.sidebar  .tagcloud a, aside.sidebar .tagcloud #blocks__about .room-boxes .package-details a, #special-dishes .room-boxes .package-details aside.sidebar .tagcloud a, aside.sidebar  .tagcloud #special-dishes .room-boxes .package-details a, #blocks__about .package-boxes .room-details .btn, #special-dishes .package-boxes .room-details .btn, #blocks__about .package-boxes .room-details aside.sidebar  .tagcloud a, aside.sidebar .tagcloud #blocks__about .package-boxes .room-details a, #special-dishes .package-boxes .room-details aside.sidebar  .tagcloud a, aside.sidebar  .tagcloud #special-dishes .package-boxes .room-details a, #blocks__about .package-boxes .package-details .btn, #special-dishes .package-boxes .package-details .btn, #blocks__about .package-boxes .package-details aside.sidebar  .tagcloud a, aside.sidebar .tagcloud #blocks__about .package-boxes .package-details a, #special-dishes .package-boxes .package-details aside.sidebar .tagcloud a, aside.sidebar .tagcloud #special-dishes .package-boxes .package-details a, #special-packages-type-2 .room-boxes .room-details .btn, #special-packages-type-2 .room-boxes .room-details aside.sidebar .tagcloud a, aside.sidebar .tagcloud #special-packages-type-2 .room-boxes .room-details a, #special-packages-type-2 .room-boxes .package-details .btn, #special-packages-type-2 .room-boxes .package-details aside.sidebar .tagcloud a, aside.sidebar .tagcloud #special-packages-type-2 .room-boxes .package-details a, #special-packages-type-2 .package-boxes .room-details .btn, #special-packages-type-2 .package-boxes .room-details aside.sidebar .tagcloud a, aside.sidebar .tagcloud #special-packages-type-2 .package-boxes .room-details a, #special-packages-type-2 .package-boxes .package-details .btn, #special-packages-type-2 .package-boxes .package-details aside.sidebar .tagcloud a, aside.sidebar .tagcloud #special-packages-type-2 .package-boxes .package-details a {
               padding: 6px 30px; }
 
           #blocks__about .room-boxes .price-container, #special-dishes .room-boxes .price-container, #blocks__about .package-boxes .price-container, #special-dishes .package-boxes .price-container, #special-packages-type-2 .room-boxes .price-container, #special-packages-type-2 .package-boxes .price-container {
@@ -579,3 +589,10 @@ transform: translate3d(-1482px, 0px, 0px);
                 #email button:hover{
                   border: none;
                 }                
+
+                #end__id {
+                  background: #f6f3e7;
+                  color: #d0d4d7;
+                  position: relative;
+                  border-top: 3px solid #C5A46D;
+                  padding: 50px 0; }

@@ -10118,7 +10118,7 @@ $total_guests = $_POST["total_guests"];
          margin-bottom: 15px; } }
          .cartContainer .cartContainerInner .price {
          font-weight: 500; }
-         .cartContainer .cartContainerInner.widget {
+         .cartContainer .cartContainerInner{
          text-align: center; }
          .cartContainer .cartContainerInner img {
          max-width: 300px; }
@@ -12154,8 +12154,8 @@ $total_guests = $_POST["total_guests"];
         </div>
       </header>
     </section>
-      <app-root _nghost-c0="" ng-version="6.1.10" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/Giriş_2.jpg')">
-         <app-search class="d-block" _nghost-c3="" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/Giriş_2.jpg')">
+      <app-root _nghost-c0="" ng-version="6.1.10" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
+         <app-search class="d-block" _nghost-c3="" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
             <div _ngcontent-c3="" class="container mainContainer marT30">
 
         <div class="heading-box">
@@ -12183,7 +12183,7 @@ $total_guests = $_POST["total_guests"];
                                  </div>
                               </div>
                               <div _ngcontent-c7="" class="row">
-                                 <div _ngcontent-c7="" class="col-7 searchRooms left"> 1 Room </div>
+                                 <div _ngcontent-c7="" class="col-7 searchRooms left" style="margin-left: 63px;"> 1 Room </div>
                               </div>
                               <div _ngcontent-c7="" class="row marT10">
                                
@@ -12225,11 +12225,11 @@ $total_guests = $_POST["total_guests"];
          </app-search>
       </app-root>
 
-    <section data-section-id="footer-72097">
+    <section>
       
-      <footer id="top-footer">
+      <footer id="end__id">
         <div class="side container">
-          <div class="widget col-xs-6 col-md-2">
+          <div class="col-xs-6 col-md-2">
             <ul class="nav-ul">
               <br>
               <br>
@@ -12247,7 +12247,7 @@ $total_guests = $_POST["total_guests"];
           </div>
         </div>
       </footer>
-      <div class="copy-right" style="text-align: center"> © Playbyadmiral.com. All Rights Reserved
+      <div class="footer__c"> © Playbyadmiral.com. All Rights Reserved
       </div>
       
     </section>
