@@ -36,23 +36,22 @@
     border: 1px dotted #ccc;
   } */
   
-  #main-booking-form button {
-    height: 50px;
-    width: 150px;
+  #reserv__form button {
+    margin-top: 9px;
+    padding: 9px 29px;
+
+    height: 48px;
+    width: 149px;
     background: #ad9260;
     border: #fff;
     color: white;
-    font-size: 1.25em;
-    padding: 10px 30px;
+
+    font-size: small;
+    
     border-radius: 15px;
     cursor: pointer;
-    margin-top: 10px;
-    font-size: small;
   }
   
-  /* #main-booking-form button:hover {
-    border: 1px solid black;
-  } */
   .wrapper{
     max-width: 1100px;
     margin: 0 auto;
@@ -132,3 +131,286 @@ transform: translate3d(-1482px, 0px, 0px);
 .width {
   width: 1482px;
 }
+
+#reserv__form {
+  background-color: #f6f3e7;
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  text-align: center;
+  color: #FFFFFF;
+  width: 480px;
+  height: 480px;
+
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 0 0 0 20px rgba(51, 51, 51, 0.4);
+  box-shadow: 0 0 0 20px rgba(51, 51, 51, 0.4);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+  #reserv__form h2 span {
+    font-weight: bold; }
+  #reserv__form h2 {
+    font-weight: 100;
+    font-size: 28px;
+    margin: 109px 0 19px; }
+
+
+    .reserv {
+      height: 100%;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); }
+      
+      @media (max-width: 992px) {
+        .reserv {
+          height: auto;
+          left: auto;
+          top: auto;
+          position: initial;
+          
+          padding: 0;
+          width: 100%;
+          
+          -moz-transform: translateX(0);
+          -ms-transform: translateX(0);
+          -webkit-transform: translateX(0);
+          transform: translateX(0); } }
+   
+  #reserv__form .booking-form {
+    margin: 0 auto;
+    width: 318px; }
+    #reserv__form  .booking-form .booking-fields {
+      margin: 3px 0;
+      position: relative;
+      padding: 0; }
+
+      #reserv__form .booking-form .booking-fields i.fa {
+        position: absolute;
+        top: 13px;
+        right: 15px; }
+    #reserv__form .booking-form input[type="text"], #reserv__form .booking-form .chosen-container {
+      border: 1px solid #FFFFFF;
+      width: 100%;
+      height: 40px;
+      background: rgba(51, 51, 51, 0.4);
+      color: #FFFFFF; }
+      #reserv__form .booking-form input[type="text"].placeholder, #reserv__form .booking-form .chosen-container.placeholder {
+        color: #FFFFFF; }
+      #reserv__form .booking-form input[type="text"]:-moz-placeholder, #reserv__form .booking-form .chosen-container:-moz-placeholder {
+        color: #FFFFFF; }
+      #reserv__form .booking-form input[type="text"]::-moz-placeholder, #reserv__form .booking-form .chosen-container::-moz-placeholder {
+        color: #FFFFFF; }
+      #reserv__form .booking-form input[type="text"]:-ms-input-placeholder, #reserv__form .booking-form .chosen-container:-ms-input-placeholder {
+        color: #FFFFFF; }
+      #reserv__form .booking-form input[type="text"]::-webkit-input-placeholder, #reserv__form .booking-form .chosen-container::-webkit-input-placeholder {
+        color: #FFFFFF; }
+    #reserv__form .booking-form input[type="text"] {
+      padding: 0 15px; }
+    #reserv__form .booking-form select {
+      background: rgba(51, 51, 51, 0.4);
+      border: 1px solid #FFFFFF;
+      width: 100%;
+      height: 40px;
+      padding: 0 10px; }
+      #reserv__form .booking-form select option {
+        background: #FFFFFF;
+        color: #333333; }
+        #reserv__form .booking-form select option:hover {
+          background: #C5A46D;
+          color: #FFFFFF; }
+    #reserv__form .booking-form .booking-button-container {
+      padding-top: 3px;
+      clear: both; }
+    #reserv__form .booking-form .chosen-container {
+      text-align: left; }
+      #reserv__form .booking-form .chosen-container .chosen-single {
+        color: #FFFFFF;
+        padding-left: 17px; }
+        #reserv__form .booking-form .chosen-container .chosen-single div {
+          width: 33px; }
+        #reserv__form .booking-form .chosen-container .chosen-single b:before, #reserv__form .booking-form .chosen-container .chosen-single b:after {
+          background: #FFFFFF; }
+      #reserv__form .booking-form .chosen-container .chosen-search {
+        display: none; }
+      #reserv__form .booking-form .chosen-container .chosen-drop {
+        background: #333333;
+        border: 0;
+        width: calc(100% + 2px);
+        left: -1px;
+        padding-bottom: 5px; }
+      #reserv__form .booking-form .chosen-container.chosen-container-active .chosen-single {
+        background: rgba(51, 51, 51, 0.4); }
+      #reserv__form .booking-form .chosen-container.chosen-container-active .chosen-drop .chosen-results {
+        margin: 0;
+        padding: 0; }
+        #reserv__form .booking-form .chosen-container.chosen-container-active .chosen-drop .chosen-results li {
+          padding: 0 15px;
+          line-height: 30px;
+          color: #C5A46D;
+          -webkit-transition: background 0.3s ease;
+          -o-transition: background 0.3s ease;
+          transition: background 0.3s ease; }
+          #reserv__form .booking-form .chosen-container.chosen-container-active .chosen-drop .chosen-results li:hover {
+            background: #C5A46D;
+            color: #FFFFFF; }
+    #reserv__form .booking-form input[type="submit"] {
+      width: 100%;
+      height: 40px; }
+  #reserv__form.addcss {
+    background: rgba(255,255,255,0.75);
+    position: absolute;
+    left: 140px;
+    top: 35%;
+    text-align: center;
+    color: #333333;
+    width: 793px;
+    height: auto;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-transform: translateX(0) translateY(-50%);
+    -ms-transform: translateX(0) translateY(-50%);
+    -webkit-transform: translateX(0) translateY(-50%);
+    transform: translateX(0) translateY(-50%);
+    padding: 10px; }
+    #reserv__form.addcss h2 {
+      color: #000;
+      margin-top: 0;
+    font-weight: 500; }
+    #reserv__form.addcss .booking-form {
+      width: 100%; }
+    #reserv__form.addcss input[type="text"], #reserv__form.addcss .chosen-container, #reserv__form.addcss select {
+      border: 1px solid #ad9260;
+      background: rgba(255, 255, 255, 0.7);
+      color: #333333;
+      height: 50px; }
+      #reserv__form.addcss input[type="text"].placeholder, #reserv__form.addcss .chosen-container.placeholder, #reserv__form.addcss select.placeholder {
+        color: #333333; }
+      #reserv__form.addcss input[type="text"]:-moz-placeholder, #reserv__form.addcss .chosen-container:-moz-placeholder, #reserv__form.addcss select:-moz-placeholder {
+        color: #333333; }
+      #reserv__form.addcss input[type="text"]::-moz-placeholder, #reserv__form.addcss .chosen-container::-moz-placeholder, #reserv__form.addcss select::-moz-placeholder {
+        color: #333333; }
+      #reserv__form.addcss input[type="text"]:-ms-input-placeholder, #reserv__form.addcss .chosen-container:-ms-input-placeholder, #reserv__form.addcss select:-ms-input-placeholder {
+        color: #333333; }
+      #reserv__form.addcss input[type="text"]::-webkit-input-placeholder, #reserv__form.addcss .chosen-container::-webkit-input-placeholder, #reserv__form.addcss select::-webkit-input-placeholder {
+        color: #333333; }
+      #reserv__form.addcss input[type="text"] .chosen-single, #reserv__form.addcss .chosen-container .chosen-single, #reserv__form.addcss select .chosen-single {
+        color: #333333;
+        height: 48px;
+        line-height: 48px; }
+        #reserv__form.addcss input[type="text"] .chosen-single b:before, #reserv__form.addcss input[type="text"] .chosen-single b:after, #reserv__form.addcss .chosen-container .chosen-single b:before, #reserv__form.addcss .chosen-container .chosen-single b:after, #reserv__form.addcss select .chosen-single b:before, #reserv__form.addcss select .chosen-single b:after {
+          top: 24px;
+          background: #333333; }
+      #reserv__form.addcss input[type="text"].chosen-container-active .chosen-single, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-single, #reserv__form.addcss select.chosen-container-active .chosen-single {
+        background: #FFFFFF; }
+      #reserv__form.addcss input[type="text"].chosen-container-active .chosen-drop, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-drop, #reserv__form.addcss select.chosen-container-active .chosen-drop {
+        background: #FFFFFF;
+        border: 1px solid #C5A46D; }
+        #reserv__form.addcss input[type="text"].chosen-container-active .chosen-drop .chosen-results, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-drop .chosen-results, #reserv__form.addcss select.chosen-container-active .chosen-drop .chosen-results {
+          margin: 0;
+          padding: 0; }
+          #reserv__form.addcss input[type="text"].chosen-container-active .chosen-drop .chosen-results li, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-drop .chosen-results li, #reserv__form.addcss select.chosen-container-active .chosen-drop .chosen-results li {
+            padding: 0 15px;
+            line-height: 30px;
+            color: #333333;
+            -webkit-transition: background 0.3s ease;
+            -o-transition: background 0.3s ease;
+            transition: background 0.3s ease; }
+            #reserv__form.addcss input[type="text"].chosen-container-active .chosen-drop .chosen-results li:hover, #reserv__form.addcss .chosen-container.chosen-container-active .chosen-drop .chosen-results li:hover, #reserv__form.addcss select.chosen-container-active .chosen-drop .chosen-results li:hover {
+              background: #C5A46D;
+              color: #FFFFFF; }
+      #reserv__form.addcss input[type="text"] option:hover, #reserv__form.addcss .chosen-container option:hover, #reserv__form.addcss select option:hover {
+        color: #FFFFFF;
+        background: #C5A46D; }
+    #reserv__form.addcss i {
+      color: #333333; }
+      #reserv__form.addcss i.fa {
+        top: 22px !important; }
+    #reserv__form.addcss .booking-fields {
+      padding: 5px 0; }
+    #reserv__form.addcss .booking-button-container {
+      padding-top: 9px; }
+      #reserv__form.addcss .booking-button-container input {
+        height: 50px; }
+  @media (max-width: 992px) {
+    #reserv__form {
+      background: #333333;
+      position: initial;
+      left: auto;
+      top: auto;
+      padding: 20px 15px;
+      width: 100%;
+      height: auto;
+      -moz-border-radius: 0;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -moz-transform: translateX(0) translateY(0);
+      -ms-transform: translateX(0) translateY(0);
+      -webkit-transform: translateX(0) translateY(0);
+      transform: translateX(0) translateY(0); }
+      #reserv__form h2 {
+        margin: 0 0 20px; }
+      #reserv__form .booking-form {
+        width: 100%; }
+        #reserv__form .booking-form .booking-fields {
+          padding: 0 15px; }
+          #reserv__form .booking-form .booking-fields i.fa {
+            right: 25px; }
+        #reserv__form .booking-form .booking-button-container {
+          padding: 3px 15px 0; }
+      #reserv__form.addcss {
+        background: #333333;
+        position: initial;
+        left: auto;
+        top: auto;
+        padding: 40px 15px 60px;
+        background: #ecedee;
+        width: 100%;
+        height: auto;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+        -webkit-transform: translateX(0) translateY(0);
+        transform: translateX(0) translateY(0); }
+        #reserv__form.addcss h2 {
+          margin: 0 0 30px; }
+        #reserv__form.addcss .booking-form {
+          width: 100%; }
+          #reserv__form.addcss .booking-form .booking-fields {
+            padding: 0 15px; } }
+        @media (max-width: 992px) and (max-width: 600px) {
+          #reserv__form.addcss .booking-form .booking-fields {
+            width: 100%;
+            float: none; } }
+  @media (max-width: 992px) {
+            #reserv__form.addcss .booking-form .booking-fields i.fa {
+              right: 25px;
+              top: 18px !important; }
+          #reserv__form.addcss .booking-form .booking-button-container {
+            padding: 3px 15px 0; } }
+  @media (max-width: 420px) {
+    #reserv__form.addcss .booking-form .booking-fields {
+      padding: 0 !important; }
+      #reserv__form.addcss .booking-form .booking-fields i.fa {
+        right: 10px; }
+    #reserv__form.addcss .booking-button-container {
+      padding: 3px 0 0 !important; } }
