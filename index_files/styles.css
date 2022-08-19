@@ -1424,7 +1424,6 @@ ol {
   list-style: none; }
 
 .list-inline {
-  
   padding-left: 0;
   list-style: none;
   margin-left: -5px;
@@ -5532,12 +5531,12 @@ button.close {
 
   .carousel-indicators {
     bottom: 20px; } }
-.clearfix:before, .clearfix:after {
+.iss:before, .iss:after {
+  display: table;
   content: " ";
-  display: table; }
-.clearfix:after {
+   }
+.iss:after {
   clear: both; }
-
 .center-block {
   display: block;
   margin-left: auto;
@@ -13182,18 +13181,19 @@ blockquote {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-    #header_id .side > div.left-sec {
+    #header_id .side > div.first {
+      position: relative;
       background: #fff;
-      position: relative; }
-      #header_id .side > div.left-sec:before {
+       }
+      #header_id .side > div.first:before {
         display: block;
-        content: "";
+        width: 3000px;
+        height: 100px;
         position: absolute;
         right: 100%;
         top: 0;
+        content: "";
         background: #ffffff;
-        width: 3000px;
-        height: 100px;
         -webkit-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease; }
@@ -13202,7 +13202,7 @@ blockquote {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  #header_id #top-logo {
+  #header_id #header-l {
     float: left;
     text-align: center;
     height: 100px;
@@ -13210,10 +13210,10 @@ blockquote {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     @media (max-width: 767px) {
-      #header_id #top-logo {
+      #header_id #header-l {
         float: right;
         padding-right: 20px; } }
-    #header_id #top-logo .title {
+    #header_id #header-l .title {
       font-size: 30px;
       border-bottom: 1px solid #FFFFFF;
       line-height: 40px;
@@ -13222,9 +13222,9 @@ blockquote {
       -webkit-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       transition: all 0.3s ease; }
-      #header_id #top-logo .title span {
+      #header_id #header-l .title span {
         font-weight: bold; }
-    #header_id #top-logo i {
+    #header_id #header-l i {
       margin: 2px; }
   #header_id .book-now-btn {
     float: right;
@@ -13317,20 +13317,20 @@ blockquote {
     #header_id .side {
       padding: 0;
       width: 100%; }
-      #header_id .side > div.left-sec {
-        padding-left: 10px; }
-      #header_id .side > div.right-sec {
-        padding-right: 15px; } }
+      #header_id .side > div.first {
+        padding-left: 11px; }
+      #header_id .side > div.two {
+        padding-right: 16px; } }
   @media (max-width: 992px) {
     #header_id .side > div {
       float: left; }
-      #header_id .side > div.left-sec {
+      #header_id .side > div.first {
         width: 200px;
         padding-left: 15px; }
-      #header_id .side > div.right-sec {
+      #header_id .side > div.two {
         width: calc( 100% - 200px ); }
-    #header_id .right-sec {
-      background: #FFFFFF; }
+    #header_id .two {
+      background: #FFF; }
     #header_id #mobile-menu-container {
       border-top: 1px solid #d0d4d7;
       /* border-bottom: 1px solid #d0d4d7; */
@@ -13384,30 +13384,28 @@ blockquote {
           #header_id #main-menu li ul li:last-child a {
             border-bottom: 1px solid #d0d4d7; } }
   @media (max-width: 420px) {
-    #header_id .side > div.left-sec {
+    #header_id .side > div.first {
       width: 160px; }
-      #header_id .side > div.left-sec #top-logo .title {
+      #header_id .side > div.first #header-l .title {
         font-size: 22px;
-        margin: 5px 0; }
-    #header_id .side > div.right-sec {
+        margin: 6px 0; }
+    #header_id .side > div.two {
       width: calc(100% - 160px); } }
   @media (max-width: 300px) {
     #header_id .side > div {
-      height: 50px; }
-      #header_id .side > div.left-sec {
-        width: 100%;
-        padding: 0; }
-        #header_id .side > div.left-sec #top-logo {
-          float: none;
-          padding: 0;
-          height: 50px; }
-          #header_id .side > div.left-sec #top-logo .title {
-            border: 0; }
-          #header_id .side > div.left-sec #top-logo i {
-            display: none; }
-      #header_id .side > div.right-sec {
+      height: 51px; }
+      #header_id .side > div.first {
         width: 100%; }
-        #header_id .side > div.right-sec a.btn, #header_id .side > div.right-sec aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #header_id .side > div.right-sec a {
+        #header_id .side > div.first #header-l {
+          float: none;
+          height: 51px; }
+          #header_id .side > div.first #header-l .title {
+            border: 0; }
+          #header_id .side > div.first #header-l i {
+            display: none; }
+      #header_id .side > div.two {
+        width: 100%; }
+        #header_id .side > div.two a.btn, #header_id .side > div.two aside.sidebar .widget.widget_tag_cloud .tagcloud a, aside.sidebar .widget.widget_tag_cloud .tagcloud #header_id .side > div.two a {
           margin-top: 10px; }
     #header_id #main-menu-handle {
       margin: 10px 0 0 15px !important;
@@ -13469,9 +13467,9 @@ body.tucky #header_id.tucky {
     line-height: 40px; }
   body.tucky #header_id.tucky .book-now-btn {
     margin-top: 27px; }
-  body.tucky #header_id.tucky #top-logo {
+  body.tucky #header_id.tucky #header-l {
     height: 80px; }
-    body.tucky #header_id.tucky #top-logo .title {
+    body.tucky #header_id.tucky #header-l .title {
       margin-top: 4px; }
   body.tucky #header_id.tucky #main-menu-handle {
     margin-top: 27px; }

@@ -106,3 +106,7 @@ body.tucky #header_id.tucky{
   color: #fff;
   width: 150px;
 }
+
+.header100 {
+  height: 100%;
+}

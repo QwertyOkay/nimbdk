@@ -12121,21 +12121,20 @@ $total_guests = $_POST["total_guests"];
         }
   </style>
   
-  <section data-section-id="header-72096">
-      <!-- Main Header -->
+  <section>
       <header id="header_id" class="tucky">
         <div class="side container">
-          <div class="left-sec col-sm-4 col-md-2 clearfix">
-            <!-- Top Logo -->
+          <div class="first col-sm-4 col-md-2 iss">
+            
             <a href="/">
-              <div id="top-logo">
+              <div id="header-l">
                 <img id="logo" src="logo.png" width="100%">
-                <!-- Attach the main stylesheet file -->
+               
               </div>
             </a>
           </div>
-          <div class="right-sec col-sm-8 col-md-10 clearfix">
-            <!-- Main Menu -->
+          <div class="two col-sm-8 col-md-10 iss">
+
             <nav id="main-menu">
               <ul class="list-inline" style="margin-left: 108px;">
                 <li>
