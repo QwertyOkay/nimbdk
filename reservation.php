@@ -1308,7 +1308,7 @@ margin: 10px;
       </header>
     </section>
 
-      <app-root _nghost-c0="" ng-version="6.1.10" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
+      <app-root ng-version="6.1.10" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
          <app-search class="d-block" _nghost-c3="" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
             <div class="container mainContainer marT30">
 
@@ -1371,7 +1371,8 @@ margin: 10px;
                               <div class="badgeContainer" style="position: absolute; top: 0px; right: 17px;">
                               </div>
                               
-                              <p class="price notAvailable"><span _ngcontent-c3=""></span> € 449.99 <br>(Tourist tax included) </p>
+                              <p class="price notAvailable">
+                              <span _ngcontent-c3=""></span> € 449.99 <br>(Tourist tax included) </p>
                            </div>
                         </div>
                      </div>
@@ -1385,7 +1386,7 @@ margin: 10px;
     <section>
       
       <footer id="end__id">
-      
+
         <div class="side container">
           <div class="col-xs-6 col-md-2">
 
