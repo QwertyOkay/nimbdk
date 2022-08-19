@@ -74,7 +74,7 @@ $total_guests = $_POST["total_guests"];
          min-height: 1px;
          padding-right: 15px;
          padding-left: 15px; }
-         
+
          .col {
          flex-basis: 0;
          flex-grow: 1;
@@ -3932,7 +3932,7 @@ margin: 10px;
   </style>
   
   <section>
-      <header id="header_id" class="tucky">
+      <header id="header_id" class="tucky" style="height: 70px;">
         <div class="side container">
           <div class="first col-sm-4 col-md-2 iss">
             
@@ -3994,7 +3994,7 @@ margin: 10px;
                                  </div>
                               </div>
                               <div _ngcontent-c7="" class="row">
-                                 <div _ngcontent-c7="" class="col-7 searchRooms left" style="margin-left: 63px;"> 1 Room </div>
+                                 <div _ngcontent-c7="" class="col-7 searchRooms left" style="margin-left: 83px;"> 1 Room </div>
                               </div>
                               <div _ngcontent-c7="" class="row marT10">
                                
