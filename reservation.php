@@ -670,7 +670,7 @@ $total_guests = $_POST["total_guests"];
 
          .container {
          max-width: 100% !important; }
-         .mainContainer {
+         .mainC {
          padding: 0px !important; }
 
          .contentContainerCard {
@@ -719,8 +719,8 @@ $total_guests = $_POST["total_guests"];
          z-index: 2; }
 
          
-         .mainContainer {
-            background: var(--mainOverlayBackground);
+         .mainC {
+         background: var(--mainOverlayBackground);
          min-height: 90vh;
          padding: 15px; }
 
@@ -789,7 +789,7 @@ $total_guests = $_POST["total_guests"];
          margin-left: 0px !important;
          margin-bottom: 15px; } }
 
-         .searchSummary {
+         .search {
          font-size: var(--font-size-sm); }
 
          .cardTitle {
@@ -966,25 +966,26 @@ $total_guests = $_POST["total_guests"];
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
    </head>
    <body>
 
-    <link rel="stylesheet" type="text/css" href="./index_files/styles.css?ver=5">
+    <link rel="stylesheet" type="text/css" href="./index_files/styles.css?ver=6">
    	    <link rel="stylesheet" type="text/css" href="custom.css?ver=5">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="custom.js"></script>
 
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
+
   	#header_id{
   		display: block;
   		position: relative;
   	}
-  	.searchGuests, .searchRooms{
+
+  	.searchGuests, .searchR{
   		font-size: 16px;
   	}
-  	.dates-title{
+  	.dates{
   		font-size: 24px;
   		display: block;
   		text-align: center;
@@ -1002,8 +1003,10 @@ $total_guests = $_POST["total_guests"];
          font-size: 20px;
          font-weight: 500;
          color: #ad9260; }
+
          .contentContainer .price.notAvailable {
          bottom: 0px; left: 15px; }
+
          .contentContainer .price span {
          font-size: 18px;
          position: absolute;
@@ -1013,14 +1016,18 @@ $total_guests = $_POST["total_guests"];
          right: 0px;
          width: 200px;
          text-align: right; }
+
          .contentContainer .contentContainerCard {
          color: var(--cardTextColor);
          position: relative;
          box-shadow: var(--boxShadow); }
+         
          .contentContainer .contentContainerCard .cardMainDetails {
          cursor: pointer; }
+
          .contentContainer .contentContainerCard:not(.fullCover) {
          margin-bottom: 25px; }
+         
          .contentContainer .contentContainerCard .imgContainer {
          max-width: 240px;
          padding: 0px;
@@ -1275,30 +1282,42 @@ margin: 10px;
   </style>
   
   <section>
-      <header id="header_id" class="tucky" style="height: 70px;">
+      <header id="header_id" 
+               class="tucky" 
+               style="height: 70px;">
+
         <div class="side container">
           <div class="first col-sm-4 col-md-2 iss">
             
             <a href="/">
               <div id="header-l">
-                <img id="logo" src="logo.png" width="100%">
-               
+                <img id="logo" 
+                src="logo.png" 
+                width="100%">
               </div>
+
             </a>
           </div>
+
           <div class="two col-sm-8 col-md-10 iss">
 
             <nav id="nav-m">
-              <ul class="nav-ul" style="margin-left: 108px;">
+
+              <ul class="nav-ul" 
+              style="margin-left: 108px;">
+
                 <li>
                   <a href="policy.html">Policy</a>
                 </li>
+
                 <li>
                   <a href="about.html">About Us</a>
                 </li>
+
                 <li>
                   <a href="contact.html">Contact Us</a>
                 </li>
+
               </ul>
             </nav>
 
@@ -1308,33 +1327,34 @@ margin: 10px;
       </header>
     </section>
 
-      <app-root ng-version="6.1.10" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
-         <app-search class="d-block" _nghost-c3="" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
-            <div class="container mainContainer marT30">
+      <app-root ng-version="6.1.10" 
+      style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
+      <app-search 
+      class="d-block" 
+      style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
+
+      <div class=" marT30 mainC container">
 
         <div class="heading-box">
           <h2>Your Stay</h2>
-         
-          <div class="subtitle"></div>
-         
         </div>
+
                <div class="row mar0">
-             
                   <div class="col-lg-4 col-xl-3 cartContainer left pad0">
 
-                     <app-cart class="d-block sticky-top sticky-top-margin" _nghost-c7="">
+                     <app-cart class="d-block sticky-top sticky-top-margin">
 
                         <div class="cartContainerInner border">
                            <div class="calendarHolderContainer">
-                              	<p class="dates-title">Dates</p>
+
+                           <p class="dates">Dates</p>
 
                               <div class="cursor-p">
                                  <?php echo $daterange; ?>
                               </div>
                            </div>
 
-                           <div class="searchSummary p-3">
-                              <div class="row"></div>
+                           <div class="search p-3">
                               <div class="row">
 
                                  <div class="col-12 searchGuests left">
@@ -1343,40 +1363,42 @@ margin: 10px;
                               </div>
 
                               <div class="row">
-                                 <div class="col-7 searchRooms left" style="margin-left: 83px;"> 1 Room </div>
+                                 <div class="col-7 searchR left" 
+                                 style="margin-left: 83px;"> 1 Room </div>
                               </div>
                            </div>
-                           
-                           <div class="summarySelections">
-                              
-                           </div>
                         </div>
-                        
                      </app-cart>
+
                   </div>
                   
                   <div class="contentContainer col-lg-8 col-xl-9 right pad0">
                      
                      <div class="contentContainerCard border">
                         <div class="row mar0 cardMainDetails">
+
                            <div class="col-sm-3 imgContainer order-sm-0">
-                              <img alt="" src="https://dg2kj7uuq7g1w.cloudfront.net/-/media/images/nimbv2/hotel/rooms/hero/standard_double_room_818x610.jpg?w=818">
+                              <img alt="orderedRoom" src="https://dg2kj7uuq7g1w.cloudfront.net/-/media/images/nimbv2/hotel/rooms/hero/standard_double_room_818x610.jpg?w=818">
                            </div>
+
                            <div class="col-sm-6 cartDetailsContainer padT10 long">
                            <h5 class="cardDetailsTitle">Standard</h5>
-                           <div class="cardDetailsDescription">Play By Admiral Hotel Standard Rooms has the kingsize bed. The room with 1 bathroom with area of 35 m2. There are the 100 rooms. In Play By Admiral Hotel all of the rooms designed beyond the lovely you will experience the best weekends.</div>
-                              <span class="cardDescMoreDetails"></span>
+
+                           <div class="cardDetailsDescription">Play By Admiral Hotel Standard Rooms has the kingsize bed. The room with 1 bathroom with area of 35 m2. 
+                           There are the 100 rooms. In Play By Admiral Hotel all of the rooms designed beyond the lovely you will experience the best weekends.</div>
                            </div>
+
                            <div class="col-sm-3 d-flex flex-wrap cardDetailsPricing">
-                              <div class="badgeContainer" style="position: absolute; top: 0px; right: 17px;">
+
+                              <div class="badgeContainer" 
+                              style="position: absolute; top: 0px; right: 17px;">
                               </div>
-                              
-                              <p class="price notAvailable">
-                              <span _ngcontent-c3=""></span> € 449.99 <br>(Tourist tax included) </p>
+
+                              <p class="price notAvailable"> € 449.99 <br>(Tourist tax included) </p>
+
                            </div>
                         </div>
                      </div>
-                     
                   </div>
                </div>
             </div>
