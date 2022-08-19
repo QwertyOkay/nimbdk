@@ -1024,10 +1024,9 @@ $total_guests = $_POST["total_guests"];
          
          .contentContainer .contentContainerCard .cardMainDetails {
          cursor: pointer; }
-
+         
          .contentContainer .contentContainerCard:not(.fullCover) {
          margin-bottom: 25px; }
-         
          .contentContainer .contentContainerCard .imgContainer {
          max-width: 240px;
          padding: 0px;
