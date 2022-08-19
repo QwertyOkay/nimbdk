@@ -13487,7 +13487,7 @@ body.tucky #header_id.tucky {
 /**
  * Main Slider style
  */
-#home-top-section {
+#relative {
   position: relative; }
 
 #main-slider, #fullscreen-slider, #room-details-slider {
