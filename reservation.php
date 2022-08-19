@@ -1841,14 +1841,14 @@ $total_guests = $_POST["total_guests"];
          .list-unstyled {
          padding-left: 0;
          list-style: none; }
-         .list-inline {
+         .nav-ul {
          padding-left: 0;
          list-style: none; }
          .list-inline-item {
          display: inline-block; }
          .list-inline-item:not(:last-child) {
          margin-right: 0.5rem; }
-         .list-inline:hover {
+         .nav-ul:hover {
             color: #000!impportant;
          }
          .initialism {
@@ -12111,12 +12111,12 @@ $total_guests = $_POST["total_guests"];
       font-weight: bold;
    }
 
-   body.tucky #header_id.tucky #main-menu li a {
+   body.tucky #header_id.tucky #nav-m li a {
     line-height: 100px; }
     @media (max-width: 992px) {
-      body.tucky #header_id.tucky #main-menu li a {
+      body.tucky #header_id.tucky #nav-m li a {
         line-height: 33px !important; } }
-        body.tucky #header_id.tucky #main-menu li a:hover {
+        body.tucky #header_id.tucky #nav-m li a:hover {
           color: #000!important;
         }
   </style>
@@ -12135,8 +12135,8 @@ $total_guests = $_POST["total_guests"];
           </div>
           <div class="two col-sm-8 col-md-10 iss">
 
-            <nav id="main-menu">
-              <ul class="list-inline" style="margin-left: 108px;">
+            <nav id="nav-m">
+              <ul class="nav-ul" style="margin-left: 108px;">
                 <li>
                   <a href="policy.html">Policy</a>
                 </li>
@@ -12228,7 +12228,7 @@ $total_guests = $_POST["total_guests"];
       <footer id="top-footer">
         <div class="side container">
           <div class="widget col-xs-6 col-md-2">
-            <ul class="list-inline">
+            <ul class="nav-ul">
               <br>
               <br>
               <li>

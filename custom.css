@@ -110,3 +110,10 @@ body.tucky #header_id.tucky{
 .header100 {
   height: 100%;
 }
+
+.mleft {
+margin-left: 108px; }
+
+.index9{
+  z-index: 9;
+}
