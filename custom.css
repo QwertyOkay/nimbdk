@@ -93,7 +93,7 @@ body.tucky #header_id.tucky{
   position: relative !important;
 } 
 @media screen and (max-width: 560px){
-  #main-slider{
+  #carousl{
     display: none !important;
   }
 }
@@ -117,4 +117,18 @@ margin-left: 108px; }
 .index9{
   z-index: 9;
   position: relative;
+}
+.dispcar {
+  opacity: 1; display: block;
+}
+
+.owl2 {
+width: 11856px; left: 0px; 
+display: block; 
+transition: all 800ms ease 0s; 
+transform: translate3d(-1482px, 0px, 0px);
+}
+
+.width {
+  width: 1482px;
 }
