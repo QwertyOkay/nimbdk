@@ -1198,12 +1198,15 @@ $total_guests = $_POST["total_guests"];
          .sticky-top-margin {
          top: 141px; } }
          @media (min-width: 576px) and (max-width: 767.98px) {
-         .sticky-top-margin {
+         
+            .sticky-top-margin {
          top: 109px; } }
          @media (min-width: 768px) and (max-width: 991.98px) {
-         .sticky-top-margin {
+         
+            .sticky-top-margin {
          top: 122px; } }
          @media (min-width: 992px) {
+         
          .sticky-top-margin {
          top: 64px; } }
 
@@ -1214,8 +1217,8 @@ $total_guests = $_POST["total_guests"];
          margin-bottom: 10px; }
 
      .row {
-         display: flex;
-         flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
          margin-right: -15px;
          margin-left: -15px; }
 
@@ -1239,7 +1242,6 @@ $total_guests = $_POST["total_guests"];
          cursor: pointer; }
 
          .cursor-p{
-
 font-size: 18px;
 text-align: center;
 margin: 10px;
@@ -1248,9 +1250,12 @@ margin: 10px;
 
    body.tucky #header_id.tucky #nav-m li a {
     line-height: 100px; }
+
     @media (max-width: 992px) {
+
       body.tucky #header_id.tucky #nav-m li a {
         line-height: 33px !important; } }
+
         body.tucky #header_id.tucky #nav-m li a:hover {
           color: #000!important;
         }
@@ -1264,6 +1269,7 @@ margin: 10px;
          margin-bottom: 10px;
          max-height: 50px;
          overflow: hidden; }
+
          .cardDetailsTitle.deals {
          height: 50px; }
   </style>
@@ -1304,7 +1310,7 @@ margin: 10px;
 
       <app-root _nghost-c0="" ng-version="6.1.10" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
          <app-search class="d-block" _nghost-c3="" style="background-image:  linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/index_files/G.jpg')">
-            <div _ngcontent-c3="" class="container mainContainer marT30">
+            <div class="container mainContainer marT30">
 
         <div class="heading-box">
           <h2>Your Stay</h2>
@@ -1312,33 +1318,36 @@ margin: 10px;
           <div class="subtitle"></div>
          
         </div>
-               <div _ngcontent-c3="" class="row mar0">
+               <div class="row mar0">
              
-                  <div _ngcontent-c3="" class="col-lg-4 col-xl-3 cartContainer left pad0">
-                     <app-cart _ngcontent-c3="" class="d-block sticky-top sticky-top-margin" _nghost-c7="">
-                        <div _ngcontent-c7="" class="cartContainerInner border">
-                           <div _ngcontent-c7="" class="calendarHolderContainer">
+                  <div class="col-lg-4 col-xl-3 cartContainer left pad0">
+
+                     <app-cart class="d-block sticky-top sticky-top-margin" _nghost-c7="">
+
+                        <div class="cartContainerInner border">
+                           <div class="calendarHolderContainer">
                               	<p class="dates-title">Dates</p>
-                              <div _ngcontent-c7="" class="cursor-p">
+
+                              <div class="cursor-p">
                                  <?php echo $daterange; ?>
                               </div>
                            </div>
-                           <div _ngcontent-c7="" class="searchSummary p-3">
-                              <div _ngcontent-c7="" class="row"></div>
-                              <div _ngcontent-c7="" class="row">
-                                 <div _ngcontent-c7="" class="col-12 searchGuests left">
+
+                           <div class="searchSummary p-3">
+                              <div class="row"></div>
+                              <div class="row">
+
+                                 <div class="col-12 searchGuests left">
                                     <?php echo $total_guests; ?> Adults 
                                  </div>
                               </div>
-                              <div _ngcontent-c7="" class="row">
-                                 <div _ngcontent-c7="" class="col-7 searchRooms left" style="margin-left: 83px;"> 1 Room </div>
-                              </div>
-                              <div _ngcontent-c7="" class="row marT10">
-                               
+
+                              <div class="row">
+                                 <div class="col-7 searchRooms left" style="margin-left: 83px;"> 1 Room </div>
                               </div>
                            </div>
                            
-                           <div _ngcontent-c7="" class="summarySelections">
+                           <div class="summarySelections">
                               
                            </div>
                         </div>
@@ -1346,23 +1355,23 @@ margin: 10px;
                      </app-cart>
                   </div>
                   
-                  <div _ngcontent-c3="" class="contentContainer col-lg-8 col-xl-9 right pad0">
+                  <div class="contentContainer col-lg-8 col-xl-9 right pad0">
                      
-                     <div _ngcontent-c3="" class="contentContainerCard border">
-                        <div _ngcontent-c3="" class="row mar0 cardMainDetails">
-                           <div _ngcontent-c3="" class="col-sm-3 imgContainer order-sm-0">
-                              <img _ngcontent-c3="" alt="" src="https://dg2kj7uuq7g1w.cloudfront.net/-/media/images/nimbv2/hotel/rooms/hero/standard_double_room_818x610.jpg?w=818"><!---->
+                     <div class="contentContainerCard border">
+                        <div class="row mar0 cardMainDetails">
+                           <div class="col-sm-3 imgContainer order-sm-0">
+                              <img alt="" src="https://dg2kj7uuq7g1w.cloudfront.net/-/media/images/nimbv2/hotel/rooms/hero/standard_double_room_818x610.jpg?w=818">
                            </div>
-                           <div _ngcontent-c3="" class="col-sm-6 cartDetailsContainer padT10 long">
-                           <h5 _ngcontent-c3="" class="cardDetailsTitle">Standard</h5>
-                           <div _ngcontent-c3="" class="cardDetailsDescription">Play By Admiral Hotel Standard Rooms has the kingsize bed. The room with 1 bathroom with area of 35 m2. There are the 100 rooms. In Play By Admiral Hotel all of the rooms designed beyond the lovely you will experience the best weekends.</div>
-                              <span _ngcontent-c3="" class="cardDescMoreDetails"></span>
+                           <div class="col-sm-6 cartDetailsContainer padT10 long">
+                           <h5 class="cardDetailsTitle">Standard</h5>
+                           <div class="cardDetailsDescription">Play By Admiral Hotel Standard Rooms has the kingsize bed. The room with 1 bathroom with area of 35 m2. There are the 100 rooms. In Play By Admiral Hotel all of the rooms designed beyond the lovely you will experience the best weekends.</div>
+                              <span class="cardDescMoreDetails"></span>
                            </div>
-                           <div _ngcontent-c3="" class="col-sm-3 d-flex flex-wrap cardDetailsPricing">
-                              <div _ngcontent-c3="" class="badgeContainer" style="position: absolute; top: 0px; right: 17px;">
+                           <div class="col-sm-3 d-flex flex-wrap cardDetailsPricing">
+                              <div class="badgeContainer" style="position: absolute; top: 0px; right: 17px;">
                               </div>
                               
-                              <p _ngcontent-c3="" class="price notAvailable"><span _ngcontent-c3=""></span> € 449.99 <br>(Tourist tax included) </p>
+                              <p class="price notAvailable"><span _ngcontent-c3=""></span> € 449.99 <br>(Tourist tax included) </p>
                            </div>
                         </div>
                      </div>
@@ -1376,8 +1385,10 @@ margin: 10px;
     <section>
       
       <footer id="end__id">
+      
         <div class="side container">
           <div class="col-xs-6 col-md-2">
+
             <ul class="nav-ul">
               <br>
               <br>
@@ -1386,18 +1397,22 @@ margin: 10px;
               </li>
               <br>
               <br>
+
               <li>
                 <a href="coockie.html">Cookie policy</a>
               </li>
               <br>
               <br>
             </ul>
+
           </div>
         </div>
+
       </footer>
+
       <div class="footer__c"> © Playbyadmiral.com. All Rights Reserved
       </div>
-      
+
     </section>
    </body>
 </html>
