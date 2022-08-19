@@ -13533,14 +13533,6 @@ body.tucky #header_id.tucky {
         -webkit-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%); } }
 
-/**
- * Main Booking Form style
- */
-
-
-/**
- * Luxury Rooms Style
- */
 #luxury-rooms, #special-dishes, #special-packages-type-2 {
   background: #fff;
   padding: 1px 0 100px; }

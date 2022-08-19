@@ -10911,6 +10911,7 @@ $total_guests = $_POST["total_guests"];
          display: block;
          padding-top: 10px;
          font-size: var(--font-size-xs); }
+
          #dateRange {
          background: white;
          display: inline-block;
@@ -10931,6 +10932,7 @@ $total_guests = $_POST["total_guests"];
          margin-bottom: 10px;
          margin-right: 0px;
          font-size: var(--font-size-sm); } }
+         
          div.dateRangeContainer {
          display: flex;
          justify-content: center;
