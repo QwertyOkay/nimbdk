@@ -11,27 +11,18 @@ $total_guests = $_POST["total_guests"];
       <meta name="viewport" content="width=device-width, initial-scale=3.561904761904762, maximum-scale=1, user-scalable=no, height=device-height">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      
+      
       <style type="text/css">@charset "UTF-8";
-         /**
-         * Variables declared here can be overridden by consuming applications, with
-         * the help of the `!default` flag.
-         *
-         * @example
-         *     // overriding $hoverColor
-         *     $hoverColor: rgba(red, 0.05);
-         *
-         *     // overriding image path
-         *     $flagsImagePath: "images/";
-         *
-         *     // import the scss file after the overrides
-         *     @import "bower_component/intl-tel-input/src/css/intlTelInput";
-         */
+
          .intl-tel-input {
          position: relative;
          display: inline-block; }
+
          .intl-tel-input * {
          box-sizing: border-box;
          -moz-box-sizing: border-box; }
+
          .intl-tel-input .hide {
          display: none; }
          .intl-tel-input .v-hide {
@@ -981,6 +972,7 @@ $total_guests = $_POST["total_guests"];
          background-repeat: no-repeat;
          background-color: #DBDBDB;
          background-position: 20px 0; }
+         
          @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
          .iti-flag {
          background-image: url('//bv3.hotelrunner.com/flags@2x.f2c77a6b7e26ff160fdb.png'); } }
@@ -1932,11 +1924,7 @@ $total_guests = $_POST["total_guests"];
          padding-left: 15px;
          margin-right: auto;
          margin-left: auto; }
-         .row {
-         display: flex;
-         flex-wrap: wrap;
-         margin-right: -15px;
-         margin-left: -15px; }
+
          .no-gutters {
          margin-right: 0;
          margin-left: 0; }
@@ -2051,6 +2039,7 @@ $total_guests = $_POST["total_guests"];
          margin-left: 83.33333333%; }
          .offset-11 {
          margin-left: 91.66666667%; }
+
          @media (min-width: 576px) {
          .col-sm {
          flex-basis: 0;
@@ -6035,18 +6024,15 @@ $total_guests = $_POST["total_guests"];
          right: 0;
          left: 0;
          z-index: 1030; }
+
          .fixed-bottom {
          position: fixed;
          right: 0;
          bottom: 0;
          left: 0;
          z-index: 1030; }
-         @supports ((position: -webkit-sticky) or (position: sticky)) {
-         .sticky-top {
-         position: -webkit-sticky;
-         position: sticky;
-         top: 0;
-         z-index: 1020; } }
+
+         
          .sr-only {
          position: absolute;
          width: 1px;
@@ -7362,8 +7348,8 @@ $total_guests = $_POST["total_guests"];
          padding-right: 0px !important; }
          .padL0 {
          padding-left: 0px !important; }
-         .mar0 {
-         margin: 0px; }
+
+        
          .mar10 {
          margin: 10px; }
          .pad10 {
@@ -7420,8 +7406,9 @@ $total_guests = $_POST["total_guests"];
          margin-bottom: 30px !important; }
          .padT0 {
          padding-top: 0px !important; }
-         .padT10 {
-         padding-top: 10px !important; }
+
+         
+
          .padT25 {
          padding-top: 25px !important; }
          .padB10 {
@@ -9471,8 +9458,7 @@ $total_guests = $_POST["total_guests"];
          margin-bottom: 0;
          padding: 10px 0;
          font-size: 16px !important; }
-         .occupancies-event .row {
-         margin-right: 5px; }
+
          .occupancies-event .icon-info {
          background: #fff;
          border-radius: 50%;
@@ -10029,8 +10015,8 @@ $total_guests = $_POST["total_guests"];
          @media (max-width: 991.98px) {
          .summaryView .summaryTotals {
          margin-top: 15px; } }
-         .summaryView .summaryTotals .row {
-         margin-bottom: 10px; }
+
+         
          .summaryView .totalRow {
          font-size: var(--font-size-xl); }
          .summaryView .badges span {
@@ -10086,18 +10072,8 @@ $total_guests = $_POST["total_guests"];
          .navbar {
          background: var(--navbarBackground) !important;
          color: var(--clearTextColor); }
-         @media (max-width: 575.98px) {
-         .sticky-top-margin {
-         top: 141px; } }
-         @media (min-width: 576px) and (max-width: 767.98px) {
-         .sticky-top-margin {
-         top: 109px; } }
-         @media (min-width: 768px) and (max-width: 991.98px) {
-         .sticky-top-margin {
-         top: 122px; } }
-         @media (min-width: 992px) {
-         .sticky-top-margin {
-         top: 64px; } }
+
+         
          .subNavbar {
          background: var(--clearTextColor);
          box-shadow: var(--boxShadow);
@@ -10108,50 +10084,8 @@ $total_guests = $_POST["total_guests"];
          order: 1;
          font-size: var(--font-size-sm);
          z-index: 2; }
-         .cartContainer .cartContainerInner {
-         background: #d0cec5;
-         box-shadow: var(--boxShadow);
-         color: var(--cardTextColor);
-         margin-bottom: 1rem; }
-         @media (max-width: 991.98px) {
-         .cartContainer .cartContainerInner {
-         margin-bottom: 15px; } }
-         .cartContainer .cartContainerInner .price {
-         font-weight: 500; }
-         .cartContainer .cartContainerInner{
-         text-align: center; }
-         .cartContainer .cartContainerInner img {
-         max-width: 300px; }
-         .cartContainer .cartContainerInner .summaryRoomItem {
-         background: var(--cardContrastBgColor);
-         color: var(--contrastTextColor);
-         margin: 15px;
-         padding: 10px;
-         position: relative; }
-         .cartContainer .cartContainerInner .summaryRoomItem .mealPlan {
-         font-size: var(--font-size-xs);
-         padding-top: 4px; }
-         .cartContainer .cartContainerInner .summaryRoomItem .price {
-         padding-left: 0px;
-         overflow: hidden; }
-         .cartContainer .cartContainerInner .summaryRoomItem:before {
-         content: " ";
-         position: absolute;
-         width: 5px;
-         top: 0px;
-         left: 0px;
-         background-color: var(--roomSelectionBorderColor, var(--primary));
-         height: 100%; }
-         .cartContainer .cartContainerInner .summaryRoomItem small {
-         font-size: var(--font-size-xs); }
-         .cartContainer .cartContainerInner .summaryTotals {
-         background: var(--cardContrastBgColor);
-         color: var(--contrastTextColor);
-         padding: 15px;
-         position: relative;
-         margin-top: 40px; }
-         .cartContainer .cartContainerInner .summaryTotals .row {
-         margin-bottom: 10px; }
+
+         
          .mainContainer {
          min-height: 90vh;
          background: var(--mainOverlayBackground);
@@ -10194,102 +10128,8 @@ $total_guests = $_POST["total_guests"];
          font-size: 36px; }
          .priceColor {
          color: var(--priceColor); }
-         .contentContainer .price {
-         position: absolute;
-         right: 30px;
-         bottom: 35px;
-         font-size: 20px;
-         font-weight: 500;
-         color: #ad9260; }
-         .contentContainer .price.notAvailable {
-         bottom: 0px; left: 15px; }
-         .contentContainer .price span {
-         font-size: 18px;
-         position: absolute;
-         top: -25px;
-         color: var(--cardTextColor) !important;
-         font-weight: 400;
-         right: 0px;
-         width: 200px;
-         text-align: right; }
-         .contentContainer .contentContainerCard {
-         color: var(--cardTextColor);
-         position: relative;
-         box-shadow: var(--boxShadow); }
-         .contentContainer .contentContainerCard .cardMainDetails {
-         cursor: pointer; }
-         .contentContainer .contentContainerCard:not(.fullCover) {
-         margin-bottom: 25px; }
-         .contentContainer .contentContainerCard .imgContainer {
-         max-width: 240px;
-         padding: 0px;
-         background-color: var(--cardContrastBgColor);
-         display: flex; }
-         .contentContainer .contentContainerCard .imgContainer img {
-         width: 100%;
-         align-self: center;
-         max-width: 240px;
-         max-height: 240px;
-         min-height: 220px;
-         padding:10px; }
-         .contentContainer .contentContainerCard .imgContainerGroup {
-         max-width: 300px;
-         padding: 0px;
-         background-color: var(--cardContrastBgColor);
-         display: flex; }
-         .contentContainer .contentContainerCard .imgContainerGroup img {
-         width: 100%;
-         align-self: center;
-         max-width: 300px;
-         max-height: 200px;
-         min-height: 200px; }
-         @media (max-width: 575.98px) {
-         .contentContainer .contentContainerCard .imgContainerGroup {
-         max-width: 240px;
-         padding: 0px;
-         background-color: var(--cardContrastBgColor);
-         display: flex; }
-         .contentContainer .contentContainerCard .imgContainerGroup img {
-         width: 100%;
-         align-self: center;
-         max-width: 240px;
-         max-height: 240px;
-         min-height: 240px; } }
-         .contentContainer .contentContainerCard .cartDetailsContainer {
-         border-right: 1px dashed var(--border-color);
-         position: relative; }
-         @media (max-width: 575.98px) {
-         .contentContainer .contentContainerCard .cartDetailsContainer {
-         border-right: 0px; padding: 10px 0; } }
-         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea {
-         position: absolute;
-         bottom: 0px;
-         padding: 5px;
-         height: auto;
-         max-height: 70px;
-         width: 100%;
-         margin-bottom: 10px; }
-         @media (max-width: 991.98px) {
-         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea {
-         width: 60%; } }
-         @media (max-width: 1199.98px) {
-         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea {
-         bottom: -5px; }
-         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList li {
-         display: none !important; }
-         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList li:nth-child(-n+5) {
-         display: block !important; } }
-         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList {
-         color: var(--cardTextColor);
-         display: inline;
-         padding-left: 0px; }
-         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList li {
-         display: inline-block;
-         float: left;
-         margin: 0px 10px 0px 0px; }
-         @media (max-width: 1199.98px) {
-         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList {
-         margin-bottom: 0.2rem; } }
+         
+         
          .contentContainer.contentContainer {
          order: 2; }
          @media (max-width: 991.98px) {
@@ -10309,62 +10149,15 @@ $total_guests = $_POST["total_guests"];
          margin-bottom: 15px; } }
          .searchSummary {
          font-size: var(--font-size-sm); }
-         .cardDetailsTitle {
-         font-size: 24px;
-         font-weight: 500;
-         margin-left: 20px;
-         padding: 0 20px;
-         color: #ad9260;
-         margin-bottom: 10px;
-         max-height: 50px;
-         overflow: hidden; }
-         .cardDetailsTitle.deals {
-         height: 50px; }
+
+      
+
          .cardTitle {
          margin-bottom: 15px;
          border-bottom: 1px solid var(--tableBorderColor);
          padding-bottom: 15px;
          overflow: hidden; }
-         .cardDetailsDescription {
-         font-size: 16px;
-         color: #000;
-         max-height: 120px;
-         overflow: hidden;
-         position: relative;
-         margin-bottom: 180px;
-         margin-left: 20px;
-         padding: 20px
-       }
-         @media (max-width: 1199.98px) {
-         .cardDetailsDescription {
-         font-size: var(--font-size-xs);
-         max-height: 50px;
-         margin-bottom: 35px; } }
-         .cardDescMoreDetails {
-         font-size: var(--font-size-sm);
-         margin-top: -20px;
-         opacity: 0;
-         float: right;
-         color: var(--cardTextColor);
-         margin-bottom: 0px; }
-         @media (max-width: 1199.98px) {
-         .cardDescMoreDetails {
-         font-size: var(--font-size-xs);
-         margin-top: -30px; } }
-         .cardDescMoreDetails a, .cardDescMoreDetails a:hover, .cardDescMoreDetails a:visited, .cardDescMoreDetails a:active, .cardDescMoreDetails a:focus {
-         text-decoration: none; }
-         .cardDescMoreDetails a {
-         color: var(--cardTextColor); }
-         .long .cardDetailsDescription:before {
-         content: '';
-         width: 100%;
-         height: 100%;
-         position: absolute;
-         left: 0;
-         top: 0;
-         background: linear-gradient(rgba(255, 255, 255, 0) 46.22%, var(--cardsBackgroundColor)); }
-         .long .cardDescMoreDetails {
-         opacity: 1; }
+
          .badgeContainer {
          position: absolute;
          top: 0px;
@@ -10864,10 +10657,8 @@ $total_guests = $_POST["total_guests"];
          margin-left: 2px; }
          .summaryRoomItem i.hricon:last-child, .extrasRoomItem i.hricon:last-child {
          margin-right: 0px !important; }
-         .calendarHolderContainer {
-         text-align: center;
-         font-size: 95px;
-         margin-bottom: -5px; }
+
+         
          div.calendarHolder {
          position: relative;
          display: inline-flex; }
@@ -10891,12 +10682,8 @@ $total_guests = $_POST["total_guests"];
          display: block;
          padding-top: 10px;
          font-size: 12px; }
-         .cursor-p{
 
-    font-size: 18px;
-    text-align: center;
-    margin: 10px;
-         }
+         
          .dayNumber {
          font-size: 35px;
          color: var(--primary);
@@ -11175,8 +10962,9 @@ $total_guests = $_POST["total_guests"];
          border: 1px solid var(--danger); }
          small.errorExplanation.hasError {
          display: block; }
-         .cursor-pointer {
-         cursor: pointer; }
+
+         
+
          .mainNavbar img {
          max-height: 100px;
          padding: 10px;
@@ -11278,8 +11066,9 @@ $total_guests = $_POST["total_guests"];
          @media (max-width: 991.98px) {
          .video {
          height: 350px !important; } }
-         .cursor-p {
-         cursor: pointer; }
+
+         
+
          .customInformingClause {
          font-style: italic;
          font-size: var(--font-size-xs); }
@@ -12106,12 +11895,257 @@ $total_guests = $_POST["total_guests"];
   		margin: 20px 0 0;
       color: #ad9260;
   	}
+
+     .padT10 {
+         padding-top: 10px !important; }
+
+     .contentContainer .price {
+         position: absolute;
+         right: 30px;
+         bottom: 35px;
+         font-size: 20px;
+         font-weight: 500;
+         color: #ad9260; }
+         .contentContainer .price.notAvailable {
+         bottom: 0px; left: 15px; }
+         .contentContainer .price span {
+         font-size: 18px;
+         position: absolute;
+         top: -25px;
+         color: var(--cardTextColor) !important;
+         font-weight: 400;
+         right: 0px;
+         width: 200px;
+         text-align: right; }
+         .contentContainer .contentContainerCard {
+         color: var(--cardTextColor);
+         position: relative;
+         box-shadow: var(--boxShadow); }
+         .contentContainer .contentContainerCard .cardMainDetails {
+         cursor: pointer; }
+         .contentContainer .contentContainerCard:not(.fullCover) {
+         margin-bottom: 25px; }
+         .contentContainer .contentContainerCard .imgContainer {
+         max-width: 240px;
+         padding: 0px;
+         background-color: var(--cardContrastBgColor);
+         display: flex; }
+         .contentContainer .contentContainerCard .imgContainer img {
+         width: 100%;
+         align-self: center;
+         max-width: 240px;
+         max-height: 240px;
+         min-height: 220px;
+         padding:10px; }
+         .contentContainer .contentContainerCard .imgContainerGroup {
+         max-width: 300px;
+         padding: 0px;
+         background-color: var(--cardContrastBgColor);
+         display: flex; }
+         .contentContainer .contentContainerCard .imgContainerGroup img {
+         width: 100%;
+         align-self: center;
+         max-width: 300px;
+         max-height: 200px;
+         min-height: 200px; }
+         @media (max-width: 575.98px) {
+         .contentContainer .contentContainerCard .imgContainerGroup {
+         max-width: 240px;
+         padding: 0px;
+         background-color: var(--cardContrastBgColor);
+         display: flex; }
+         .contentContainer .contentContainerCard .imgContainerGroup img {
+         width: 100%;
+         align-self: center;
+         max-width: 240px;
+         max-height: 240px;
+         min-height: 240px; } }
+
+         .contentContainer .contentContainerCard .cartDetailsContainer {
+         border-right: 1px dashed var(--border-color);
+         position: relative; }
+         @media (max-width: 575.98px) {
+         .contentContainer .contentContainerCard .cartDetailsContainer {
+         border-right: 0px; padding: 10px 0; } }
+         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea {
+         position: absolute;
+         bottom: 0px;
+         padding: 5px;
+         height: auto;
+         max-height: 70px;
+         width: 100%;
+         margin-bottom: 10px; }
+         @media (max-width: 991.98px) {
+         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea {
+         width: 60%; } }
+         @media (max-width: 1199.98px) {
+         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea {
+         bottom: -5px; }
+         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList li {
+         display: none !important; }
+         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList li:nth-child(-n+5) {
+         display: block !important; } }
+         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList {
+         color: var(--cardTextColor);
+         display: inline;
+         padding-left: 0px; }
+         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList li {
+         display: inline-block;
+         float: left;
+         margin: 0px 10px 0px 0px; }
+         @media (max-width: 1199.98px) {
+         .contentContainer .contentContainerCard .cartDetailsContainer .bottomArea .iconList {
+         margin-bottom: 0.2rem; } }
+
+
+         .cardDetailsDescription {
+         font-size: 16px;
+         color: #000;
+         max-height: 120px;
+         overflow: hidden;
+         position: relative;
+         margin-bottom: 180px;
+         margin-left: 20px;
+         padding: 20px
+       }
+         @media (max-width: 1199.98px) {
+         .cardDetailsDescription {
+         font-size: var(--font-size-xs);
+         max-height: 50px;
+         margin-bottom: 35px; } }
+         .cardDescMoreDetails {
+         font-size: var(--font-size-sm);
+         margin-top: -20px;
+         opacity: 0;
+         float: right;
+         color: var(--cardTextColor);
+         margin-bottom: 0px; }
+         @media (max-width: 1199.98px) {
+         .cardDescMoreDetails {
+         font-size: var(--font-size-xs);
+         margin-top: -30px; } }
+         .cardDescMoreDetails a, .cardDescMoreDetails a:hover, .cardDescMoreDetails a:visited, .cardDescMoreDetails a:active, .cardDescMoreDetails a:focus {
+         text-decoration: none; }
+         .cardDescMoreDetails a {
+         color: var(--cardTextColor); }
+         .long .cardDetailsDescription:before {
+         content: '';
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         left: 0;
+         top: 0;
+         background: linear-gradient(rgba(255, 255, 255, 0) 46.22%, var(--cardsBackgroundColor)); }
+         .long .cardDescMoreDetails {
+         opacity: 1; }
+        
+
+     .calendarHolderContainer {
+         text-align: center;
+         font-size: 95px;
+         margin-bottom: -5px; }
+
+     .cartContainer .cartContainerInner {
+         background: #d0cec5;
+         box-shadow: var(--boxShadow);
+         color: var(--cardTextColor);
+         margin-bottom: 1rem; }
+         @media (max-width: 991.98px) {
+         .cartContainer .cartContainerInner {
+         margin-bottom: 15px; } }
+         .cartContainer .cartContainerInner .price {
+         font-weight: 500; }
+         .cartContainer .cartContainerInner{
+         text-align: center; }
+         .cartContainer .cartContainerInner img {
+         max-width: 300px; }
+         .cartContainer .cartContainerInner .summaryRoomItem {
+         background: var(--cardContrastBgColor);
+         color: var(--contrastTextColor);
+         margin: 15px;
+         padding: 10px;
+         position: relative; }
+         .cartContainer .cartContainerInner .summaryRoomItem .mealPlan {
+         font-size: var(--font-size-xs);
+         padding-top: 4px; }
+         .cartContainer .cartContainerInner .summaryRoomItem .price {
+         padding-left: 0px;
+         overflow: hidden; }
+         .cartContainer .cartContainerInner .summaryRoomItem:before {
+         content: " ";
+         position: absolute;
+         width: 5px;
+         top: 0px;
+         left: 0px;
+         background-color: var(--roomSelectionBorderColor, var(--primary));
+         height: 100%; }
+         .cartContainer .cartContainerInner .summaryRoomItem small {
+         font-size: var(--font-size-xs); }
+         .cartContainer .cartContainerInner .summaryTotals {
+         background: var(--cardContrastBgColor);
+         color: var(--contrastTextColor);
+         padding: 15px;
+         position: relative;
+         margin-top: 40px; }
+
+     @supports ((position: -webkit-sticky) or (position: sticky)) {
+         .sticky-top {
+         position: -webkit-sticky;
+         position: sticky;
+         top: 0;
+         z-index: 1020; } }
+
+     @media (max-width: 575.98px) {
+         .sticky-top-margin {
+         top: 141px; } }
+         @media (min-width: 576px) and (max-width: 767.98px) {
+         .sticky-top-margin {
+         top: 109px; } }
+         @media (min-width: 768px) and (max-width: 991.98px) {
+         .sticky-top-margin {
+         top: 122px; } }
+         @media (min-width: 992px) {
+         .sticky-top-margin {
+         top: 64px; } }
+
+     .occupancies-event .row {
+         margin-right: 5px; }
+
+     .summaryView .summaryTotals .row {
+         margin-bottom: 10px; }
+
+     .row {
+         display: flex;
+         flex-wrap: wrap;
+         margin-right: -15px;
+         margin-left: -15px; }
+
+         .cartContainer .cartContainerInner .summaryTotals .row {
+         margin-bottom: 10px; }
+
+     .mar0 {
+         margin: 0px; }
+
+
   	.heading-box {
   		margin:0 0 30px;
   	}
    .cursor-p{
       font-weight: bold;
    }
+   .cursor-p {
+         cursor: pointer; }
+
+         .cursor-pointer {
+         cursor: pointer; }
+
+         .cursor-p{
+
+font-size: 18px;
+text-align: center;
+margin: 10px;
+     }
+
 
    body.tucky #header_id.tucky #nav-m li a {
     line-height: 100px; }
@@ -12121,6 +12155,18 @@ $total_guests = $_POST["total_guests"];
         body.tucky #header_id.tucky #nav-m li a:hover {
           color: #000!important;
         }
+
+        .cardDetailsTitle {
+         font-size: 24px;
+         font-weight: 500;
+         margin-left: 20px;
+         padding: 0 20px;
+         color: #ad9260;
+         margin-bottom: 10px;
+         max-height: 50px;
+         overflow: hidden; }
+         .cardDetailsTitle.deals {
+         height: 50px; }
   </style>
   
   <section>
